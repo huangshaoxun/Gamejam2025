@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028454, g: 0.22571503, b: 0.30692345, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028481, g: 0.22571552, b: 0.30692425, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -299,6 +299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ball (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
@@ -710,6 +715,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
       propertyPath: intensity
@@ -1095,57 +1105,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f7bfa1fe84fd424a99ade425590910c, type: 3}
---- !u!1 &528015494
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 528015496}
-  - component: {fileID: 528015495}
-  m_Layer: 0
-  m_Name: BurstCollisionWorld
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &528015495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528015494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1a161c4294214a4fbcb7e9e94800494, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cellSpans:
-    m_AlignBytes: 16
---- !u!4 &528015496
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528015494}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &633480927 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2118143518397372163, guid: 6f7bfa1fe84fd424a99ade425590910c,
     type: 3}
   m_PrefabInstance: {fileID: 1717143946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &865533103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6087690693685450597, guid: 50da1f99a3d2646478f91888e6b86d78,
+    type: 3}
+  m_PrefabInstance: {fileID: 9177953228824681652}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &883223543 stripped
 Transform:
@@ -1165,6 +1135,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ball (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
@@ -1546,6 +1521,11 @@ PrefabInstance:
       propertyPath: size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8745829773989324966, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: color
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1671,6 +1651,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
       propertyPath: intensity
@@ -1684,7 +1669,7 @@ PrefabInstance:
     - target: {fileID: 2118143518397372163, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.78
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 2118143518397372163, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
@@ -2068,6 +2053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ball (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
@@ -2677,6 +2667,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
       propertyPath: intensity
@@ -3096,6 +3091,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
       propertyPath: intensity
@@ -3476,6 +3476,11 @@ PrefabInstance:
       propertyPath: size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8745829773989324966, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: color
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3623,6 +3628,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ball (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
@@ -4015,6 +4025,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 9177953228824681652}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1714112971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865533103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8df0eaf8c07a84eb57e4dd1152beea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseBubble: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+    type: 3}
+  numRange: {x: 20, y: 50}
+  xAxisRange: {x: -5, y: 5}
+  yAixsRange: {x: 1, y: 7}
+  sizeRange: {x: 1, y: 3}
+  minDistance: 2
 --- !u!1001 &1717143946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4028,10 +4057,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
       propertyPath: intensity
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2118143518397372163, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
@@ -4408,6 +4442,11 @@ PrefabInstance:
       propertyPath: size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8745829773989324966, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: isPlayer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4431,6 +4470,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ball (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
@@ -4835,6 +4879,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ball (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
@@ -5345,6 +5394,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
       propertyPath: intensity
@@ -5824,6 +5878,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
       propertyPath: intensity
@@ -6221,6 +6280,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ball (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 316917705976040230, guid: 6f7bfa1fe84fd424a99ade425590910c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 837216058618977006, guid: 6f7bfa1fe84fd424a99ade425590910c,
         type: 3}
@@ -8412,7 +8476,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1046222669}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6087690693685450597, guid: 50da1f99a3d2646478f91888e6b86d78,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1714112971}
   m_SourcePrefab: {fileID: 100100000, guid: 50da1f99a3d2646478f91888e6b86d78, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -8424,4 +8492,3 @@ SceneRoots:
   - {fileID: 1577897710}
   - {fileID: 9177953228824681652}
   - {fileID: 141319500}
-  - {fileID: 528015496}
