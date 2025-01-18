@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Matcap
-  m_Shader: {fileID: 4800000, guid: 7b6c18af1e1e4c9a82498c9563ce9d6f, type: 3}
+  m_Shader: {fileID: 4800000, guid: 5ad520eea5f610348b1645e41cbe3219, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -61,10 +61,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: fe0aad56ef7f6494cb1a6eb92890f526, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCap:
+        m_Texture: {fileID: 2800000, guid: fe0aad56ef7f6494cb1a6eb92890f526, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapTex:
         m_Texture: {fileID: 2800000, guid: fe0aad56ef7f6494cb1a6eb92890f526, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
