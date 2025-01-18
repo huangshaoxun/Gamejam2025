@@ -22,6 +22,7 @@ public class ActorSpawner : MonoBehaviour {
 		{
 			GameObject go = Instantiate(template.gameObject,transform.position,Quaternion.identity);
             go.transform.SetParent(transform.parent);
+            go.SetActive(true);
 			instances++;
 			timeFromLastSpawn = 0;
 		}

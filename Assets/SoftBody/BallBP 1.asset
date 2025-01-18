@@ -1,0 +1,5539 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-814034216833292471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6ebc904cae74824a9329f2f41de1ed, type: 3}
+  m_Name: BallBP 1 skinmap
+  m_EditorClassIdentifier: 
+  particlesOnVertices:
+    influences:
+      serializedContents:
+      - index: 0
+        weight: 0.68242466
+      - index: 2
+        weight: 0.114673816
+      - index: 30
+        weight: 0.101450756
+      - index: 1
+        weight: 0.101450756
+      - index: 0
+        weight: 0.47117203
+      - index: 1
+        weight: 0.35803476
+      - index: 30
+        weight: 0.10863795
+      - index: 4
+        weight: 0.06215521
+      - index: 0
+        weight: 0.59443694
+      - index: 30
+        weight: 0.2027815
+      - index: 1
+        weight: 0.2027815
+      - index: 0
+        weight: 0.53101796
+      - index: 1
+        weight: 0.24170971
+      - index: 4
+        weight: 0.15268362
+      - index: 2
+        weight: 0.07458882
+      - index: 0
+        weight: 0.45676842
+      - index: 2
+        weight: 0.2329943
+      - index: 4
+        weight: 0.21266118
+      - index: 1
+        weight: 0.09757606
+      - index: 1
+        weight: 0.40986148
+      - index: 0
+        weight: 0.3551606
+      - index: 4
+        weight: 0.23497792
+      - index: 0
+        weight: 0.5327036
+      - index: 2
+        weight: 0.27466908
+      - index: 32
+        weight: 0.09631372
+      - index: 4
+        weight: 0.09631372
+      - index: 1
+        weight: 0.57165074
+      - index: 0
+        weight: 0.32005924
+      - index: 4
+        weight: 0.108290054
+      - index: 2
+        weight: 0.45888186
+      - index: 0
+        weight: 0.35499278
+      - index: 32
+        weight: 0.09306265
+      - index: 4
+        weight: 0.09306265
+      - index: 1
+        weight: 0.6902033
+      - index: 5
+        weight: 0.11743456
+      - index: 0
+        weight: 0.1026909
+      - index: 4
+        weight: 0.08967123
+      - index: 2
+        weight: 0.44726756
+      - index: 0
+        weight: 0.3147985
+      - index: 4
+        weight: 0.23793389
+      - index: 2
+        weight: 0.6290182
+      - index: 4
+        weight: 0.15526734
+      - index: 3
+        weight: 0.10785728
+      - index: 0
+        weight: 0.10785718
+      - index: 4
+        weight: 0.41834337
+      - index: 2
+        weight: 0.34072876
+      - index: 0
+        weight: 0.21522216
+      - index: 1
+        weight: 0.025705671
+      - index: 2
+        weight: 0.63838446
+      - index: 3
+        weight: 0.1646871
+      - index: 0
+        weight: 0.16468696
+      - index: 4
+        weight: 0.03224147
+      - index: 2
+        weight: 0.50596863
+      - index: 3
+        weight: 0.39141938
+      - index: 33
+        weight: 0.10261198
+      - index: 4
+        weight: 0.33340794
+      - index: 0
+        weight: 0.30725017
+      - index: 1
+        weight: 0.20971523
+      - index: 2
+        weight: 0.14962667
+      - index: 4
+        weight: 0.40771475
+      - index: 1
+        weight: 0.29441163
+      - index: 5
+        weight: 0.17121418
+      - index: 0
+        weight: 0.12665951
+      - index: 1
+        weight: 0.4829526
+      - index: 4
+        weight: 0.22568192
+      - index: 5
+        weight: 0.15973587
+      - index: 0
+        weight: 0.13162959
+      - index: 1
+        weight: 0.44772887
+      - index: 5
+        weight: 0.38152608
+      - index: 4
+        weight: 0.17074503
+      - index: 1
+        weight: 0.57872444
+      - index: 5
+        weight: 0.2958543
+      - index: 39
+        weight: 0.09408587
+      - index: 4
+        weight: 0.03133534
+      - index: 5
+        weight: 0.42669562
+      - index: 1
+        weight: 0.37628436
+      - index: 6
+        weight: 0.1298431
+      - index: 39
+        weight: 0.06717689
+      - index: 2
+        weight: 0.57143575
+      - index: 3
+        weight: 0.4021915
+      - index: 4
+        weight: 0.026372679
+      - index: 3
+        weight: 0.662211
+      - index: 2
+        weight: 0.33778906
+      - index: 2
+        weight: 0.41491005
+      - index: 3
+        weight: 0.26207906
+      - index: 9
+        weight: 0.19808495
+      - index: 4
+        weight: 0.12492588
+      - index: 3
+        weight: 0.5894784
+      - index: 2
+        weight: 0.30394292
+      - index: 33
+        weight: 0.106578685
+      - index: 3
+        weight: 0.71339124
+      - index: 2
+        weight: 0.11987743
+      - index: 34
+        weight: 0.106054254
+      - index: 33
+        weight: 0.06067704
+      - index: 2
+        weight: 0.5168643
+      - index: 4
+        weight: 0.34275225
+      - index: 9
+        weight: 0.10238215
+      - index: 3
+        weight: 0.038001314
+      - index: 4
+        weight: 0.43896508
+      - index: 9
+        weight: 0.31102774
+      - index: 2
+        weight: 0.25000712
+      - index: 4
+        weight: 0.65177256
+      - index: 2
+        weight: 0.15964064
+      - index: 5
+        weight: 0.108280085
+      - index: 1
+        weight: 0.08030674
+      - index: 4
+        weight: 0.44839364
+      - index: 5
+        weight: 0.3626007
+      - index: 9
+        weight: 0.1382048
+      - index: 1
+        weight: 0.050800763
+      - index: 5
+        weight: 0.42503953
+      - index: 4
+        weight: 0.31086642
+      - index: 1
+        weight: 0.26409408
+      - index: 5
+        weight: 0.650109
+      - index: 6
+        weight: 0.13516033
+      - index: 1
+        weight: 0.10803616
+      - index: 4
+        weight: 0.10669457
+      - index: 5
+        weight: 0.55060637
+      - index: 1
+        weight: 0.26418144
+      - index: 6
+        weight: 0.16122995
+      - index: 4
+        weight: 0.023982158
+      - index: 5
+        weight: 0.51932
+      - index: 6
+        weight: 0.431808
+      - index: 1
+        weight: 0.048872095
+      - index: 5
+        weight: 0.44996414
+      - index: 6
+        weight: 0.4005002
+      - index: 1
+        weight: 0.14953564
+      - index: 6
+        weight: 0.5665037
+      - index: 5
+        weight: 0.30287775
+      - index: 11
+        weight: 0.13061853
+      - index: 6
+        weight: 0.584711
+      - index: 5
+        weight: 0.3033786
+      - index: 7
+        weight: 0.08213076
+      - index: 11
+        weight: 0.029779688
+      - index: 6
+        weight: 0.48082814
+      - index: 5
+        weight: 0.25409582
+      - index: 7
+        weight: 0.24526697
+      - index: 12
+        weight: 0.019809062
+      - index: 6
+        weight: 0.65588415
+      - index: 5
+        weight: 0.13639672
+      - index: 7
+        weight: 0.11021398
+      - index: 11
+        weight: 0.09750518
+      - index: 6
+        weight: 0.6313894
+      - index: 11
+        weight: 0.21538714
+      - index: 5
+        weight: 0.15322354
+      - index: 6
+        weight: 0.4921914
+      - index: 7
+        weight: 0.25378048
+      - index: 12
+        weight: 0.1529049
+      - index: 5
+        weight: 0.10112328
+      - index: 7
+        weight: 0.40447676
+      - index: 6
+        weight: 0.31290478
+      - index: 12
+        weight: 0.25775862
+      - index: 5
+        weight: 0.0248598
+      - index: 5
+        weight: 0.46807563
+      - index: 6
+        weight: 0.3577197
+      - index: 7
+        weight: 0.17420465
+      - index: 7
+        weight: 0.394303
+      - index: 5
+        weight: 0.3566345
+      - index: 6
+        weight: 0.24906248
+      - index: 7
+        weight: 0.42943358
+      - index: 6
+        weight: 0.30224648
+      - index: 5
+        weight: 0.15597527
+      - index: 12
+        weight: 0.112344705
+      - index: 7
+        weight: 0.62995654
+      - index: 12
+        weight: 0.15400723
+      - index: 8
+        weight: 0.10801818
+      - index: 6
+        weight: 0.108018085
+      - index: 7
+        weight: 0.4688695
+      - index: 12
+        weight: 0.28921762
+      - index: 8
+        weight: 0.12095651
+      - index: 6
+        weight: 0.12095641
+      - index: 7
+        weight: 0.4147883
+      - index: 8
+        weight: 0.32088193
+      - index: 12
+        weight: 0.2643298
+      - index: 5
+        weight: 0.53784007
+      - index: 7
+        weight: 0.20113479
+      - index: 4
+        weight: 0.17379415
+      - index: 9
+        weight: 0.087231
+      - index: 9
+        weight: 0.3820291
+      - index: 7
+        weight: 0.30707872
+      - index: 5
+        weight: 0.22144896
+      - index: 4
+        weight: 0.08944317
+      - index: 7
+        weight: 0.6608725
+      - index: 5
+        weight: 0.15963055
+      - index: 9
+        weight: 0.13090776
+      - index: 8
+        weight: 0.048589204
+      - index: 7
+        weight: 0.45776805
+      - index: 8
+        weight: 0.28915045
+      - index: 9
+        weight: 0.21854609
+      - index: 10
+        weight: 0.034535404
+      - index: 7
+        weight: 0.5087925
+      - index: 8
+        weight: 0.35810155
+      - index: 12
+        weight: 0.1331059
+      - index: 8
+        weight: 0.56660014
+      - index: 7
+        weight: 0.28901866
+      - index: 10
+        weight: 0.12103851
+      - index: 12
+        weight: 0.023342678
+      - index: 8
+        weight: 0.5475627
+      - index: 7
+        weight: 0.28233063
+      - index: 12
+        weight: 0.1701066
+      - index: 8
+        weight: 0.7304939
+      - index: 7
+        weight: 0.12275133
+      - index: 10
+        weight: 0.10859677
+      - index: 12
+        weight: 0.03815804
+      - index: 9
+        weight: 0.5031302
+      - index: 4
+        weight: 0.36588424
+      - index: 5
+        weight: 0.13098554
+      - index: 9
+        weight: 0.85292554
+      - index: 4
+        weight: 0.08739073
+      - index: 10
+        weight: 0.05968368
+      - index: 9
+        weight: 0.5821479
+      - index: 7
+        weight: 0.22970611
+      - index: 10
+        weight: 0.11555286
+      - index: 8
+        weight: 0.07259316
+      - index: 9
+        weight: 0.4137103
+      - index: 10
+        weight: 0.395345
+      - index: 8
+        weight: 0.1700823
+      - index: 7
+        weight: 0.020862363
+      - index: 8
+        weight: 0.3828951
+      - index: 10
+        weight: 0.26134703
+      - index: 7
+        weight: 0.18646474
+      - index: 9
+        weight: 0.16929312
+      - index: 10
+        weight: 0.48768115
+      - index: 8
+        weight: 0.4225943
+      - index: 9
+        weight: 0.08972464
+      - index: 8
+        weight: 0.6267056
+      - index: 10
+        weight: 0.28526494
+      - index: 7
+        weight: 0.08802948
+      - index: 8
+        weight: 0.5285978
+      - index: 10
+        weight: 0.4016715
+      - index: 43
+        weight: 0.069730766
+      - index: 8
+        weight: 0.7456387
+      - index: 10
+        weight: 0.2543613
+      - index: 10
+        weight: 0.5716507
+      - index: 8
+        weight: 0.32005912
+      - index: 43
+        weight: 0.1082902
+      - index: 10
+        weight: 0.6902033
+      - index: 40
+        weight: 0.11743452
+      - index: 8
+        weight: 0.10269089
+      - index: 43
+        weight: 0.089671284
+      - index: 10
+        weight: 0.61316305
+      - index: 9
+        weight: 0.2197183
+      - index: 8
+        weight: 0.16711865
+      - index: 10
+        weight: 0.551378
+      - index: 9
+        weight: 0.3042032
+      - index: 40
+        weight: 0.14441882
+      - index: 10
+        weight: 0.5787243
+      - index: 40
+        weight: 0.29585412
+      - index: 9
+        weight: 0.09408609
+      - index: 43
+        weight: 0.031335413
+      - index: 40
+        weight: 0.4266955
+      - index: 10
+        weight: 0.37628436
+      - index: 3
+        weight: 0.1298431
+      - index: 9
+        weight: 0.06717707
+      - index: 9
+        weight: 0.619327
+      - index: 10
+        weight: 0.38067296
+      - index: 9
+        weight: 0.5586114
+      - index: 3
+        weight: 0.22965325
+      - index: 10
+        weight: 0.18356603
+      - index: 2
+        weight: 0.02816936
+      - index: 10
+        weight: 0.3165268
+      - index: 9
+        weight: 0.25397748
+      - index: 40
+        weight: 0.2363194
+      - index: 3
+        weight: 0.19317633
+      - index: 3
+        weight: 0.5645163
+      - index: 40
+        weight: 0.25173432
+      - index: 9
+        weight: 0.11985732
+      - index: 10
+        weight: 0.06389205
+      - index: 40
+        weight: 0.44996408
+      - index: 3
+        weight: 0.4005002
+      - index: 10
+        weight: 0.14953569
+      - index: 3
+        weight: 0.5665037
+      - index: 40
+        weight: 0.30287772
+      - index: 34
+        weight: 0.13061854
+      - index: 9
+        weight: 0.537568
+      - index: 2
+        weight: 0.2121156
+      - index: 4
+        weight: 0.18328229
+      - index: 3
+        weight: 0.0670341
+      - index: 3
+        weight: 0.51836944
+      - index: 2
+        weight: 0.2524389
+      - index: 9
+        weight: 0.22919169
+      - index: 3
+        weight: 0.7414492
+      - index: 40
+        weight: 0.11664165
+      - index: 2
+        weight: 0.10414681
+      - index: 34
+        weight: 0.037762363
+      - index: 3
+        weight: 0.6313893
+      - index: 34
+        weight: 0.21538717
+      - index: 40
+        weight: 0.15322348
+      - index: 6
+        weight: 0.65588415
+      - index: 5
+        weight: 0.13639672
+      - index: 7
+        weight: 0.11021398
+      - index: 11
+        weight: 0.09750518
+      - index: 6
+        weight: 0.5682202
+      - index: 11
+        weight: 0.43177983
+      - index: 6
+        weight: 0.6313894
+      - index: 11
+        weight: 0.21538714
+      - index: 5
+        weight: 0.15322354
+      - index: 6
+        weight: 0.6450581
+      - index: 11
+        weight: 0.2936187
+      - index: 12
+        weight: 0.05514886
+      - index: 5
+        weight: 0.0061743525
+      - index: 6
+        weight: 0.51437783
+      - index: 12
+        weight: 0.21826135
+      - index: 7
+        weight: 0.15747799
+      - index: 11
+        weight: 0.10988273
+      - index: 11
+        weight: 0.47739625
+      - index: 6
+        weight: 0.41368204
+      - index: 13
+        weight: 0.08783223
+      - index: 12
+        weight: 0.021089468
+      - index: 6
+        weight: 0.4921914
+      - index: 7
+        weight: 0.25378048
+      - index: 12
+        weight: 0.1529049
+      - index: 5
+        weight: 0.10112328
+      - index: 11
+        weight: 0.64107245
+      - index: 6
+        weight: 0.3589275
+      - index: 7
+        weight: 0.40447676
+      - index: 6
+        weight: 0.31290478
+      - index: 12
+        weight: 0.25775862
+      - index: 5
+        weight: 0.0248598
+      - index: 11
+        weight: 0.78198683
+      - index: 6
+        weight: 0.116346784
+      - index: 13
+        weight: 0.06019422
+      - index: 14
+        weight: 0.041472215
+      - index: 12
+        weight: 0.38358983
+      - index: 6
+        weight: 0.3234275
+      - index: 7
+        weight: 0.29298273
+      - index: 12
+        weight: 0.4507724
+      - index: 7
+        weight: 0.33685514
+      - index: 8
+        weight: 0.10618625
+      - index: 6
+        weight: 0.10618615
+      - index: 12
+        weight: 0.4595691
+      - index: 6
+        weight: 0.24270807
+      - index: 13
+        weight: 0.18344396
+      - index: 7
+        weight: 0.11427879
+      - index: 7
+        weight: 0.4688695
+      - index: 12
+        weight: 0.28921762
+      - index: 8
+        weight: 0.12095651
+      - index: 6
+        weight: 0.12095641
+      - index: 7
+        weight: 0.4147883
+      - index: 8
+        weight: 0.32088193
+      - index: 12
+        weight: 0.2643298
+      - index: 6
+        weight: 0.36759162
+      - index: 11
+        weight: 0.2509016
+      - index: 12
+        weight: 0.21898
+      - index: 13
+        weight: 0.16252673
+      - index: 13
+        weight: 0.3678356
+      - index: 11
+        weight: 0.35150692
+      - index: 6
+        weight: 0.1512226
+      - index: 12
+        weight: 0.12943493
+      - index: 11
+        weight: 0.5920919
+      - index: 13
+        weight: 0.21216755
+      - index: 6
+        weight: 0.16137569
+      - index: 14
+        weight: 0.03436479
+      - index: 11
+        weight: 0.46866316
+      - index: 14
+        weight: 0.27276894
+      - index: 13
+        weight: 0.25856793
+      - index: 11
+        weight: 0.55348784
+      - index: 14
+        weight: 0.25210258
+      - index: 38
+        weight: 0.10442659
+      - index: 13
+        weight: 0.089983046
+      - index: 14
+        weight: 0.4088982
+      - index: 11
+        weight: 0.2943721
+      - index: 38
+        weight: 0.24417649
+      - index: 13
+        weight: 0.052553274
+      - index: 12
+        weight: 0.38358977
+      - index: 8
+        weight: 0.3234276
+      - index: 7
+        weight: 0.29298267
+      - index: 8
+        weight: 0.57787657
+      - index: 12
+        weight: 0.24520518
+      - index: 7
+        weight: 0.17691827
+      - index: 12
+        weight: 0.45956904
+      - index: 8
+        weight: 0.24270813
+      - index: 17
+        weight: 0.183444
+      - index: 7
+        weight: 0.114278786
+      - index: 8
+        weight: 0.5475627
+      - index: 7
+        weight: 0.28233063
+      - index: 12
+        weight: 0.1701066
+      - index: 8
+        weight: 0.7304939
+      - index: 7
+        weight: 0.12275133
+      - index: 10
+        weight: 0.10859677
+      - index: 12
+        weight: 0.03815804
+      - index: 12
+        weight: 0.65675056
+      - index: 7
+        weight: 0.15629676
+      - index: 13
+        weight: 0.09347636
+      - index: 17
+        weight: 0.09347629
+      - index: 12
+        weight: 0.42680448
+      - index: 13
+        weight: 0.28659782
+      - index: 17
+        weight: 0.2865977
+      - index: 13
+        weight: 0.46876246
+      - index: 12
+        weight: 0.35797217
+      - index: 11
+        weight: 0.09304661
+      - index: 17
+        weight: 0.08021872
+      - index: 13
+        weight: 0.6958532
+      - index: 17
+        weight: 0.1324694
+      - index: 12
+        weight: 0.097336456
+      - index: 14
+        weight: 0.074341
+      - index: 13
+        weight: 0.47888345
+      - index: 11
+        weight: 0.2943487
+      - index: 14
+        weight: 0.22676785
+      - index: 14
+        weight: 0.46822625
+      - index: 13
+        weight: 0.37716377
+      - index: 11
+        weight: 0.12394037
+      - index: 15
+        weight: 0.03066956
+      - index: 14
+        weight: 0.46357393
+      - index: 11
+        weight: 0.22866133
+      - index: 13
+        weight: 0.18347505
+      - index: 38
+        weight: 0.12428965
+      - index: 14
+        weight: 0.63038564
+      - index: 38
+        weight: 0.19001491
+      - index: 15
+        weight: 0.10003075
+      - index: 20
+        weight: 0.07956863
+      - index: 14
+        weight: 0.4959379
+      - index: 38
+        weight: 0.31756657
+      - index: 11
+        weight: 0.098163135
+      - index: 20
+        weight: 0.08833231
+      - index: 14
+        weight: 0.41314405
+      - index: 38
+        weight: 0.2935235
+      - index: 20
+        weight: 0.21017377
+      - index: 15
+        weight: 0.08315869
+      - index: 14
+        weight: 0.42478177
+      - index: 15
+        weight: 0.20330541
+      - index: 20
+        weight: 0.20103224
+      - index: 38
+        weight: 0.17088056
+      - index: 15
+        weight: 0.4084639
+      - index: 14
+        weight: 0.3940997
+      - index: 20
+        weight: 0.16920498
+      - index: 38
+        weight: 0.028231395
+      - index: 20
+        weight: 0.29607433
+      - index: 14
+        weight: 0.2960743
+      - index: 15
+        weight: 0.27521944
+      - index: 38
+        weight: 0.13263193
+      - index: 20
+        weight: 0.3061814
+      - index: 14
+        weight: 0.30618137
+      - index: 38
+        weight: 0.24120976
+      - index: 15
+        weight: 0.14642745
+      - index: 15
+        weight: 0.49230433
+      - index: 20
+        weight: 0.25384787
+      - index: 14
+        weight: 0.25384784
+      - index: 15
+        weight: 0.6639281
+      - index: 22
+        weight: 0.11296395
+      - index: 16
+        weight: 0.11296395
+      - index: 20
+        weight: 0.11014404
+      - index: 14
+        weight: 0.5420273
+      - index: 15
+        weight: 0.26024103
+      - index: 13
+        weight: 0.16857652
+      - index: 20
+        weight: 0.02915519
+      - index: 15
+        weight: 0.33914185
+      - index: 14
+        weight: 0.28100812
+      - index: 16
+        weight: 0.19722687
+      - index: 13
+        weight: 0.18262325
+      - index: 15
+        weight: 0.5590946
+      - index: 14
+        weight: 0.21820988
+      - index: 16
+        weight: 0.18491971
+      - index: 20
+        weight: 0.037775755
+      - index: 15
+        weight: 0.47302353
+      - index: 16
+        weight: 0.40308055
+      - index: 22
+        weight: 0.123895966
+      - index: 15
+        weight: 0.49445328
+      - index: 22
+        weight: 0.25277334
+      - index: 16
+        weight: 0.25277334
+      - index: 22
+        weight: 0.31385776
+      - index: 16
+        weight: 0.31385776
+      - index: 15
+        weight: 0.27677763
+      - index: 18
+        weight: 0.095506854
+      - index: 13
+        weight: 0.49628484
+      - index: 14
+        weight: 0.2723818
+      - index: 16
+        weight: 0.13282363
+      - index: 15
+        weight: 0.09850972
+      - index: 16
+        weight: 0.34572315
+      - index: 13
+        weight: 0.30292034
+      - index: 17
+        weight: 0.30292025
+      - index: 15
+        weight: 0.04843619
+      - index: 16
+        weight: 0.48584327
+      - index: 15
+        weight: 0.30187392
+      - index: 13
+        weight: 0.10614142
+      - index: 17
+        weight: 0.106141336
+      - index: 16
+        weight: 0.6118773
+      - index: 17
+        weight: 0.159228
+      - index: 18
+        weight: 0.12721196
+      - index: 15
+        weight: 0.101682775
+      - index: 16
+        weight: 0.46929762
+      - index: 15
+        weight: 0.22516944
+      - index: 22
+        weight: 0.16811185
+      - index: 18
+        weight: 0.13742109
+      - index: 16
+        weight: 0.4354679
+      - index: 18
+        weight: 0.36208624
+      - index: 22
+        weight: 0.16146483
+      - index: 15
+        weight: 0.040981032
+      - index: 22
+        weight: 0.31032768
+      - index: 16
+        weight: 0.31032768
+      - index: 18
+        weight: 0.27621394
+      - index: 15
+        weight: 0.10313063
+      - index: 18
+        weight: 0.43480968
+      - index: 22
+        weight: 0.23246828
+      - index: 16
+        weight: 0.23246828
+      - index: 28
+        weight: 0.10025379
+      - index: 13
+        weight: 0.37778577
+      - index: 17
+        weight: 0.37778562
+      - index: 12
+        weight: 0.14607532
+      - index: 16
+        weight: 0.09835325
+      - index: 17
+        weight: 0.63134205
+      - index: 16
+        weight: 0.16015685
+      - index: 13
+        weight: 0.12018858
+      - index: 12
+        weight: 0.0883126
+      - index: 16
+        weight: 0.44880807
+      - index: 17
+        weight: 0.4253588
+      - index: 13
+        weight: 0.07279125
+      - index: 18
+        weight: 0.05304189
+      - index: 17
+        weight: 0.2957078
+      - index: 16
+        weight: 0.28827924
+      - index: 19
+        weight: 0.21468762
+      - index: 18
+        weight: 0.20132539
+      - index: 16
+        weight: 0.43371502
+      - index: 18
+        weight: 0.33146024
+      - index: 17
+        weight: 0.14655165
+      - index: 19
+        weight: 0.08827307
+      - index: 18
+        weight: 0.46905714
+      - index: 16
+        weight: 0.24787533
+      - index: 19
+        weight: 0.21298602
+      - index: 17
+        weight: 0.070081525
+      - index: 18
+        weight: 0.56142795
+      - index: 16
+        weight: 0.29129806
+      - index: 22
+        weight: 0.08832152
+      - index: 19
+        weight: 0.058952495
+      - index: 18
+        weight: 0.64304054
+      - index: 16
+        weight: 0.13372582
+      - index: 19
+        weight: 0.12763776
+      - index: 28
+        weight: 0.09559585
+      - index: 18
+        weight: 0.5474996
+      - index: 28
+        weight: 0.18676965
+      - index: 22
+        weight: 0.13286543
+      - index: 16
+        weight: 0.13286543
+      - index: 18
+        weight: 0.5098929
+      - index: 19
+        weight: 0.29315728
+      - index: 16
+        weight: 0.10476016
+      - index: 44
+        weight: 0.09218967
+      - index: 19
+        weight: 0.5081815
+      - index: 18
+        weight: 0.34696743
+      - index: 44
+        weight: 0.090958916
+      - index: 17
+        weight: 0.053892206
+      - index: 19
+        weight: 0.37588206
+      - index: 18
+        weight: 0.2978168
+      - index: 17
+        weight: 0.17261192
+      - index: 16
+        weight: 0.15368928
+      - index: 19
+        weight: 0.59008807
+      - index: 17
+        weight: 0.26763862
+      - index: 18
+        weight: 0.12850982
+      - index: 16
+        weight: 0.013763577
+      - index: 19
+        weight: 0.7350606
+      - index: 18
+        weight: 0.1485421
+      - index: 17
+        weight: 0.08731652
+      - index: 44
+        weight: 0.029080806
+      - index: 19
+        weight: 0.6711341
+      - index: 8
+        weight: 0.137567
+      - index: 43
+        weight: 0.120125644
+      - index: 17
+        weight: 0.07117319
+      - index: 17
+        weight: 0.48363942
+      - index: 19
+        weight: 0.3501076
+      - index: 16
+        weight: 0.12745693
+      - index: 18
+        weight: 0.03879602
+      - index: 17
+        weight: 0.40176624
+      - index: 19
+        weight: 0.2916874
+      - index: 8
+        weight: 0.16517192
+      - index: 12
+        weight: 0.14137448
+      - index: 19
+        weight: 0.5529439
+      - index: 17
+        weight: 0.25392196
+      - index: 8
+        weight: 0.1931341
+      - index: 8
+        weight: 0.5239552
+      - index: 19
+        weight: 0.33808807
+      - index: 17
+        weight: 0.11124545
+      - index: 12
+        weight: 0.026711188
+      - index: 19
+        weight: 0.44564977
+      - index: 8
+        weight: 0.41420594
+      - index: 43
+        weight: 0.14014424
+      - index: 8
+        weight: 0.59868115
+      - index: 19
+        weight: 0.1843053
+      - index: 10
+        weight: 0.1380377
+      - index: 43
+        weight: 0.07897592
+      - index: 17
+        weight: 0.4855591
+      - index: 12
+        weight: 0.370799
+      - index: 13
+        weight: 0.08309327
+      - index: 8
+        weight: 0.060548652
+      - index: 8
+        weight: 0.43399557
+      - index: 12
+        weight: 0.25853786
+      - index: 17
+        weight: 0.19188666
+      - index: 19
+        weight: 0.115579896
+      - index: 8
+        weight: 0.805523
+      - index: 19
+        weight: 0.08458362
+      - index: 12
+        weight: 0.068867706
+      - index: 10
+        weight: 0.041025672
+      - index: 8
+        weight: 0.7456387
+      - index: 10
+        weight: 0.2543613
+      - index: 20
+        weight: 0.29607433
+      - index: 14
+        weight: 0.2960743
+      - index: 15
+        weight: 0.27521944
+      - index: 38
+        weight: 0.13263193
+      - index: 20
+        weight: 0.4131441
+      - index: 38
+        weight: 0.29352352
+      - index: 14
+        weight: 0.21017371
+      - index: 15
+        weight: 0.08315875
+      - index: 20
+        weight: 0.3061814
+      - index: 14
+        weight: 0.30618137
+      - index: 38
+        weight: 0.24120976
+      - index: 15
+        weight: 0.14642745
+      - index: 20
+        weight: 0.42478177
+      - index: 15
+        weight: 0.20330542
+      - index: 14
+        weight: 0.20103222
+      - index: 38
+        weight: 0.17088056
+      - index: 15
+        weight: 0.40846393
+      - index: 20
+        weight: 0.39409965
+      - index: 14
+        weight: 0.16920495
+      - index: 38
+        weight: 0.028231395
+      - index: 20
+        weight: 0.63038564
+      - index: 38
+        weight: 0.19001493
+      - index: 15
+        weight: 0.100030825
+      - index: 14
+        weight: 0.07956857
+      - index: 15
+        weight: 0.49230433
+      - index: 20
+        weight: 0.25384787
+      - index: 14
+        weight: 0.25384784
+      - index: 20
+        weight: 0.49593797
+      - index: 38
+        weight: 0.31756657
+      - index: 21
+        weight: 0.098163135
+      - index: 14
+        weight: 0.08833224
+      - index: 15
+        weight: 0.6639281
+      - index: 22
+        weight: 0.11296395
+      - index: 16
+        weight: 0.11296395
+      - index: 20
+        weight: 0.11014404
+      - index: 20
+        weight: 0.40889817
+      - index: 21
+        weight: 0.29437205
+      - index: 38
+        weight: 0.24417645
+      - index: 37
+        weight: 0.052553337
+      - index: 15
+        weight: 0.55909467
+      - index: 20
+        weight: 0.21820988
+      - index: 22
+        weight: 0.18491971
+      - index: 14
+        weight: 0.037775755
+      - index: 15
+        weight: 0.47302353
+      - index: 22
+        weight: 0.4030805
+      - index: 16
+        weight: 0.12389595
+      - index: 15
+        weight: 0.33914185
+      - index: 20
+        weight: 0.28100806
+      - index: 22
+        weight: 0.19722684
+      - index: 23
+        weight: 0.18262327
+      - index: 15
+        weight: 0.49445328
+      - index: 22
+        weight: 0.25277334
+      - index: 16
+        weight: 0.25277334
+      - index: 22
+        weight: 0.31385776
+      - index: 16
+        weight: 0.31385776
+      - index: 15
+        weight: 0.27677763
+      - index: 18
+        weight: 0.095506854
+      - index: 20
+        weight: 0.5420272
+      - index: 15
+        weight: 0.2602411
+      - index: 23
+        weight: 0.16857654
+      - index: 14
+        weight: 0.029155111
+      - index: 20
+        weight: 0.4682262
+      - index: 23
+        weight: 0.37716377
+      - index: 21
+        weight: 0.12394037
+      - index: 15
+        weight: 0.030669639
+      - index: 20
+        weight: 0.46357393
+      - index: 21
+        weight: 0.22866133
+      - index: 23
+        weight: 0.18347505
+      - index: 38
+        weight: 0.12428965
+      - index: 21
+        weight: 0.46866316
+      - index: 20
+        weight: 0.2727689
+      - index: 23
+        weight: 0.25856796
+      - index: 21
+        weight: 0.55348784
+      - index: 20
+        weight: 0.25210258
+      - index: 38
+        weight: 0.10442659
+      - index: 37
+        weight: 0.089983046
+      - index: 21
+        weight: 0.7576623
+      - index: 24
+        weight: 0.12569402
+      - index: 37
+        weight: 0.058321893
+      - index: 23
+        weight: 0.058321893
+      - index: 22
+        weight: 0.5036579
+      - index: 15
+        weight: 0.24165556
+      - index: 16
+        weight: 0.18042038
+      - index: 18
+        weight: 0.07426618
+      - index: 22
+        weight: 0.45127788
+      - index: 18
+        weight: 0.26748648
+      - index: 16
+        weight: 0.16732693
+      - index: 28
+        weight: 0.11390868
+      - index: 22
+        weight: 0.68141586
+      - index: 26
+        weight: 0.17732394
+      - index: 15
+        weight: 0.11323885
+      - index: 28
+        weight: 0.028021337
+      - index: 22
+        weight: 0.31032768
+      - index: 16
+        weight: 0.31032768
+      - index: 18
+        weight: 0.27621394
+      - index: 15
+        weight: 0.10313063
+      - index: 18
+        weight: 0.43480968
+      - index: 22
+        weight: 0.23246828
+      - index: 16
+        weight: 0.23246828
+      - index: 28
+        weight: 0.10025379
+      - index: 22
+        weight: 0.4858432
+      - index: 15
+        weight: 0.30187398
+      - index: 23
+        weight: 0.10614141
+      - index: 26
+        weight: 0.10614133
+      - index: 22
+        weight: 0.34572315
+      - index: 23
+        weight: 0.30292034
+      - index: 26
+        weight: 0.30292025
+      - index: 15
+        weight: 0.04843626
+      - index: 23
+        weight: 0.49628484
+      - index: 20
+        weight: 0.27238178
+      - index: 22
+        weight: 0.13282363
+      - index: 15
+        weight: 0.0985098
+      - index: 23
+        weight: 0.7314329
+      - index: 26
+        weight: 0.13924271
+      - index: 20
+        weight: 0.07814214
+      - index: 21
+        weight: 0.051182278
+      - index: 23
+        weight: 0.4679235
+      - index: 21
+        weight: 0.28761202
+      - index: 20
+        weight: 0.22157787
+      - index: 24
+        weight: 0.022886632
+      - index: 23
+        weight: 0.3639789
+      - index: 21
+        weight: 0.3478214
+      - index: 24
+        weight: 0.28819963
+      - index: 21
+        weight: 0.5535057
+      - index: 24
+        weight: 0.21602832
+      - index: 23
+        weight: 0.19834073
+      - index: 20
+        weight: 0.032125257
+      - index: 21
+        weight: 0.42407763
+      - index: 24
+        weight: 0.4091641
+      - index: 29
+        weight: 0.08873569
+      - index: 23
+        weight: 0.07802257
+      - index: 21
+        weight: 0.521103
+      - index: 24
+        weight: 0.2686972
+      - index: 36
+        weight: 0.112174906
+      - index: 29
+        weight: 0.098024815
+      - index: 24
+        weight: 0.32927427
+      - index: 21
+        weight: 0.30608088
+      - index: 29
+        weight: 0.23472714
+      - index: 36
+        weight: 0.12991773
+      - index: 24
+        weight: 0.5097007
+      - index: 21
+        weight: 0.24394858
+      - index: 29
+        weight: 0.24122101
+      - index: 36
+        weight: 0.005129726
+      - index: 24
+        weight: 0.6813246
+      - index: 29
+        weight: 0.17025332
+      - index: 21
+        weight: 0.10811382
+      - index: 25
+        weight: 0.04030827
+      - index: 24
+        weight: 0.52221787
+      - index: 29
+        weight: 0.37266883
+      - index: 21
+        weight: 0.10511332
+      - index: 24
+        weight: 0.35480508
+      - index: 29
+        weight: 0.35480505
+      - index: 21
+        weight: 0.16968112
+      - index: 36
+        weight: 0.12070873
+      - index: 24
+        weight: 0.5930642
+      - index: 29
+        weight: 0.28954813
+      - index: 25
+        weight: 0.11738768
+      - index: 24
+        weight: 0.47049245
+      - index: 25
+        weight: 0.33871457
+      - index: 29
+        weight: 0.13032311
+      - index: 31
+        weight: 0.060469836
+      - index: 24
+        weight: 0.5420271
+      - index: 21
+        weight: 0.2602411
+      - index: 23
+        weight: 0.1685766
+      - index: 29
+        weight: 0.029155122
+      - index: 24
+        weight: 0.5731617
+      - index: 23
+        weight: 0.23757817
+      - index: 25
+        weight: 0.15171708
+      - index: 21
+        weight: 0.037543017
+      - index: 24
+        weight: 0.6378021
+      - index: 25
+        weight: 0.31460065
+      - index: 29
+        weight: 0.04759725
+      - index: 25
+        weight: 0.6321052
+      - index: 24
+        weight: 0.36789477
+      - index: 25
+        weight: 0.618026
+      - index: 24
+        weight: 0.28149858
+      - index: 31
+        weight: 0.100475475
+      - index: 25
+        weight: 0.77165973
+      - index: 27
+        weight: 0.12801616
+      - index: 31
+        weight: 0.059399527
+      - index: 24
+        weight: 0.040924605
+      - index: 23
+        weight: 0.5212503
+      - index: 24
+        weight: 0.2860836
+      - index: 21
+        weight: 0.10346514
+      - index: 26
+        weight: 0.08920089
+      - index: 23
+        weight: 0.41597015
+      - index: 26
+        weight: 0.41597
+      - index: 24
+        weight: 0.10154734
+      - index: 25
+        weight: 0.06651256
+      - index: 25
+        weight: 0.40426555
+      - index: 24
+        weight: 0.31144822
+      - index: 23
+        weight: 0.14214316
+      - index: 26
+        weight: 0.14214306
+      - index: 25
+        weight: 0.422463
+      - index: 27
+        weight: 0.3500465
+      - index: 26
+        weight: 0.22749059
+      - index: 25
+        weight: 0.6904501
+      - index: 27
+        weight: 0.2694765
+      - index: 24
+        weight: 0.040073454
+      - index: 25
+        weight: 0.45996523
+      - index: 27
+        weight: 0.4437897
+      - index: 41
+        weight: 0.09624512
+      - index: 25
+        weight: 0.5211029
+      - index: 27
+        weight: 0.26869714
+      - index: 35
+        weight: 0.11217495
+      - index: 41
+        weight: 0.09802501
+      - index: 27
+        weight: 0.32927418
+      - index: 25
+        weight: 0.30608082
+      - index: 41
+        weight: 0.23472722
+      - index: 35
+        weight: 0.12991782
+      - index: 23
+        weight: 0.44241112
+      - index: 26
+        weight: 0.44241095
+      - index: 22
+        weight: 0.1151779
+      - index: 26
+        weight: 0.6447949
+      - index: 22
+        weight: 0.16356952
+      - index: 23
+        weight: 0.1227496
+      - index: 27
+        weight: 0.068886094
+      - index: 26
+        weight: 0.52125025
+      - index: 27
+        weight: 0.28608358
+      - index: 25
+        weight: 0.103465214
+      - index: 23
+        weight: 0.089201055
+      - index: 27
+        weight: 0.4682261
+      - index: 26
+        weight: 0.37716392
+      - index: 28
+        weight: 0.12394033
+      - index: 25
+        weight: 0.030669643
+      - index: 27
+        weight: 0.54202706
+      - index: 25
+        weight: 0.2602411
+      - index: 26
+        weight: 0.16857666
+      - index: 41
+        weight: 0.029155191
+      - index: 27
+        weight: 0.6580892
+      - index: 41
+        weight: 0.16444708
+      - index: 25
+        weight: 0.10442678
+      - index: 26
+        weight: 0.07303694
+      - index: 27
+        weight: 0.50970066
+      - index: 25
+        weight: 0.2439486
+      - index: 41
+        weight: 0.24122098
+      - index: 35
+        weight: 0.005129865
+      - index: 27
+        weight: 0.52221787
+      - index: 41
+        weight: 0.37266883
+      - index: 25
+        weight: 0.10511332
+      - index: 41
+        weight: 0.35480508
+      - index: 27
+        weight: 0.354805
+      - index: 25
+        weight: 0.16968109
+      - index: 35
+        weight: 0.12070885
+      - index: 27
+        weight: 0.5930642
+      - index: 41
+        weight: 0.2895481
+      - index: 28
+        weight: 0.1173877
+      - index: 27
+        weight: 0.4704925
+      - index: 28
+        weight: 0.3387147
+      - index: 41
+        weight: 0.13032298
+      - index: 26
+        weight: 0.060469855
+      - index: 27
+        weight: 0.509251
+      - index: 28
+        weight: 0.2511918
+      - index: 26
+        weight: 0.20155342
+      - index: 41
+        weight: 0.038003795
+      - index: 28
+        weight: 0.46251285
+      - index: 27
+        weight: 0.26918945
+      - index: 26
+        weight: 0.25517502
+      - index: 22
+        weight: 0.013122624
+      - index: 28
+        weight: 0.59801435
+      - index: 27
+        weight: 0.2723836
+      - index: 26
+        weight: 0.097222164
+      - index: 44
+        weight: 0.032379884
+      - index: 28
+        weight: 0.7376372
+      - index: 18
+        weight: 0.109748274
+      - index: 44
+        weight: 0.095833905
+      - index: 26
+        weight: 0.056780588
+      - index: 26
+        weight: 0.42521942
+      - index: 28
+        weight: 0.2613636
+      - index: 27
+        weight: 0.20135592
+      - index: 22
+        weight: 0.1120611
+      - index: 26
+        weight: 0.34124023
+      - index: 22
+        weight: 0.33266783
+      - index: 28
+        weight: 0.326092
+      - index: 28
+        weight: 0.5510751
+      - index: 26
+        weight: 0.19746996
+      - index: 22
+        weight: 0.17582226
+      - index: 18
+        weight: 0.075632766
+      - index: 28
+        weight: 0.4077578
+      - index: 22
+        weight: 0.2653431
+      - index: 18
+        weight: 0.25187898
+      - index: 26
+        weight: 0.075020164
+      - index: 28
+        weight: 0.5090135
+      - index: 18
+        weight: 0.28498948
+      - index: 22
+        weight: 0.10957252
+      - index: 44
+        weight: 0.09642458
+      - index: 18
+        weight: 0.4516031
+      - index: 28
+        weight: 0.34316474
+      - index: 22
+        weight: 0.1456583
+      - index: 44
+        weight: 0.0595739
+      - index: 22
+        weight: 0.43514907
+      - index: 26
+        weight: 0.41241348
+      - index: 28
+        weight: 0.08186159
+      - index: 23
+        weight: 0.07057592
+      - index: 22
+        weight: 0.4558246
+      - index: 28
+        weight: 0.23777288
+      - index: 26
+        weight: 0.15402246
+      - index: 18
+        weight: 0.15238008
+      - index: 18
+        weight: 0.3855631
+      - index: 22
+        weight: 0.28178898
+      - index: 28
+        weight: 0.24720949
+      - index: 16
+        weight: 0.08543837
+      - index: 18
+        weight: 0.5474996
+      - index: 28
+        weight: 0.18676965
+      - index: 22
+        weight: 0.13286543
+      - index: 16
+        weight: 0.13286543
+      - index: 24
+        weight: 0.52221787
+      - index: 29
+        weight: 0.37266883
+      - index: 21
+        weight: 0.10511332
+      - index: 29
+        weight: 0.459404
+      - index: 24
+        weight: 0.23370706
+      - index: 36
+        weight: 0.21441896
+      - index: 21
+        weight: 0.092470005
+      - index: 24
+        weight: 0.35480508
+      - index: 29
+        weight: 0.35480505
+      - index: 21
+        weight: 0.16968112
+      - index: 36
+        weight: 0.12070873
+      - index: 29
+        weight: 0.52708626
+      - index: 24
+        weight: 0.35750028
+      - index: 36
+        weight: 0.08718691
+      - index: 21
+        weight: 0.028226605
+      - index: 29
+        weight: 0.43938068
+      - index: 24
+        weight: 0.43217194
+      - index: 31
+        weight: 0.0837846
+      - index: 25
+        weight: 0.044662856
+      - index: 29
+        weight: 0.65077764
+      - index: 24
+        weight: 0.15902738
+      - index: 36
+        weight: 0.15169394
+      - index: 30
+        weight: 0.03850107
+      - index: 24
+        weight: 0.5930642
+      - index: 29
+        weight: 0.28954813
+      - index: 25
+        weight: 0.11738768
+      - index: 29
+        weight: 0.50719064
+      - index: 36
+        weight: 0.30208227
+      - index: 30
+        weight: 0.10039043
+      - index: 24
+        weight: 0.09033662
+      - index: 24
+        weight: 0.47049245
+      - index: 25
+        weight: 0.33871457
+      - index: 29
+        weight: 0.13032311
+      - index: 31
+        weight: 0.060469836
+      - index: 29
+        weight: 0.39427847
+      - index: 36
+        weight: 0.32187432
+      - index: 30
+        weight: 0.28384715
+      - index: 24
+        weight: 0.33024248
+      - index: 25
+        weight: 0.25025204
+      - index: 29
+        weight: 0.21870624
+      - index: 31
+        weight: 0.20079929
+      - index: 25
+        weight: 0.51968783
+      - index: 31
+        weight: 0.2867192
+      - index: 24
+        weight: 0.17884815
+      - index: 35
+        weight: 0.014744817
+      - index: 31
+        weight: 0.3904677
+      - index: 29
+        weight: 0.30917376
+      - index: 24
+        weight: 0.1720464
+      - index: 25
+        weight: 0.12831219
+      - index: 25
+        weight: 0.618026
+      - index: 24
+        weight: 0.28149858
+      - index: 31
+        weight: 0.100475475
+      - index: 25
+        weight: 0.77165973
+      - index: 27
+        weight: 0.12801616
+      - index: 31
+        weight: 0.059399527
+      - index: 24
+        weight: 0.040924605
+      - index: 29
+        weight: 0.5854772
+      - index: 24
+        weight: 0.23243277
+      - index: 31
+        weight: 0.18209006
+      - index: 29
+        weight: 0.5152989
+      - index: 31
+        weight: 0.21359368
+      - index: 30
+        weight: 0.13640058
+      - index: 32
+        weight: 0.13470678
+      - index: 29
+        weight: 0.52457595
+      - index: 30
+        weight: 0.25875103
+      - index: 36
+        weight: 0.19318381
+      - index: 32
+        weight: 0.02348919
+      - index: 30
+        weight: 0.4493784
+      - index: 29
+        weight: 0.26154494
+      - index: 32
+        weight: 0.17137405
+      - index: 36
+        weight: 0.11770265
+      - index: 30
+        weight: 0.49484298
+      - index: 36
+        weight: 0.25297248
+      - index: 29
+        weight: 0.22539102
+      - index: 32
+        weight: 0.026793534
+      - index: 30
+        weight: 0.6902034
+      - index: 36
+        weight: 0.1174345
+      - index: 0
+        weight: 0.10269092
+      - index: 32
+        weight: 0.08967117
+      - index: 25
+        weight: 0.5730809
+      - index: 31
+        weight: 0.20535535
+      - index: 35
+        weight: 0.18284324
+      - index: 27
+        weight: 0.038720522
+      - index: 25
+        weight: 0.40484533
+      - index: 35
+        weight: 0.26344782
+      - index: 27
+        weight: 0.16770586
+      - index: 41
+        weight: 0.16400094
+      - index: 31
+        weight: 0.34124017
+      - index: 35
+        weight: 0.33266777
+      - index: 25
+        weight: 0.32609203
+      - index: 25
+        weight: 0.5211029
+      - index: 27
+        weight: 0.26869714
+      - index: 35
+        weight: 0.11217495
+      - index: 41
+        weight: 0.09802501
+      - index: 27
+        weight: 0.32927418
+      - index: 25
+        weight: 0.30608082
+      - index: 41
+        weight: 0.23472722
+      - index: 35
+        weight: 0.12991782
+      - index: 31
+        weight: 0.5189131
+      - index: 25
+        weight: 0.3189531
+      - index: 35
+        weight: 0.13675286
+      - index: 29
+        weight: 0.025380906
+      - index: 31
+        weight: 0.68559045
+      - index: 35
+        weight: 0.17391841
+      - index: 32
+        weight: 0.07024558
+      - index: 33
+        weight: 0.07024558
+      - index: 31
+        weight: 0.5291596
+      - index: 29
+        weight: 0.29042488
+      - index: 32
+        weight: 0.18041551
+      - index: 32
+        weight: 0.48842204
+      - index: 31
+        weight: 0.3460703
+      - index: 29
+        weight: 0.08448346
+      - index: 33
+        weight: 0.08102426
+      - index: 32
+        weight: 0.35679376
+      - index: 30
+        weight: 0.30311128
+      - index: 29
+        weight: 0.2335186
+      - index: 31
+        weight: 0.10657641
+      - index: 32
+        weight: 0.4919422
+      - index: 30
+        weight: 0.35523245
+      - index: 0
+        weight: 0.15282537
+      - index: 30
+        weight: 0.5562083
+      - index: 32
+        weight: 0.25991398
+      - index: 0
+        weight: 0.15159556
+      - index: 29
+        weight: 0.032282118
+      - index: 30
+        weight: 0.40986148
+      - index: 0
+        weight: 0.3551606
+      - index: 32
+        weight: 0.23497792
+      - index: 30
+        weight: 0.57165074
+      - index: 0
+        weight: 0.32005924
+      - index: 32
+        weight: 0.108290054
+      - index: 0
+        weight: 0.47117203
+      - index: 30
+        weight: 0.35803476
+      - index: 1
+        weight: 0.10863795
+      - index: 32
+        weight: 0.06215521
+      - index: 0
+        weight: 0.5575248
+      - index: 30
+        weight: 0.25377512
+      - index: 32
+        weight: 0.16030508
+      - index: 1
+        weight: 0.028395075
+      - index: 0
+        weight: 0.5036889
+      - index: 32
+        weight: 0.23450626
+      - index: 2
+        weight: 0.15420553
+      - index: 30
+        weight: 0.10759932
+      - index: 0
+        weight: 0.68242466
+      - index: 2
+        weight: 0.114673816
+      - index: 30
+        weight: 0.101450756
+      - index: 1
+        weight: 0.101450756
+      - index: 0
+        weight: 0.59443694
+      - index: 30
+        weight: 0.2027815
+      - index: 1
+        weight: 0.2027815
+      - index: 0
+        weight: 0.5327036
+      - index: 2
+        weight: 0.27466908
+      - index: 32
+        weight: 0.09631372
+      - index: 4
+        weight: 0.09631372
+      - index: 2
+        weight: 0.45888186
+      - index: 0
+        weight: 0.35499278
+      - index: 32
+        weight: 0.09306265
+      - index: 4
+        weight: 0.09306265
+      - index: 32
+        weight: 0.39207244
+      - index: 0
+        weight: 0.3613121
+      - index: 30
+        weight: 0.2466155
+      - index: 32
+        weight: 0.4995185
+      - index: 0
+        weight: 0.2569838
+      - index: 33
+        weight: 0.12249718
+      - index: 2
+        weight: 0.1210005
+      - index: 0
+        weight: 0.36666703
+      - index: 2
+        weight: 0.33215204
+      - index: 32
+        weight: 0.2771376
+      - index: 33
+        weight: 0.024043342
+      - index: 2
+        weight: 0.449881
+      - index: 33
+        weight: 0.20415193
+      - index: 32
+        weight: 0.20415184
+      - index: 3
+        weight: 0.14181519
+      - index: 2
+        weight: 0.63838446
+      - index: 3
+        weight: 0.1646871
+      - index: 0
+        weight: 0.16468696
+      - index: 4
+        weight: 0.03224147
+      - index: 2
+        weight: 0.50596863
+      - index: 3
+        weight: 0.39141938
+      - index: 33
+        weight: 0.10261198
+      - index: 32
+        weight: 0.6939251
+      - index: 33
+        weight: 0.14686148
+      - index: 30
+        weight: 0.085500464
+      - index: 31
+        weight: 0.07371292
+      - index: 32
+        weight: 0.43323392
+      - index: 33
+        weight: 0.43323392
+      - index: 31
+        weight: 0.13353224
+      - index: 33
+        weight: 0.38309458
+      - index: 32
+        weight: 0.38309455
+      - index: 2
+        weight: 0.19133677
+      - index: 3
+        weight: 0.04247411
+      - index: 33
+        weight: 0.4995185
+      - index: 3
+        weight: 0.25698388
+      - index: 32
+        weight: 0.12249715
+      - index: 2
+        weight: 0.1210005
+      - index: 3
+        weight: 0.36666712
+      - index: 2
+        weight: 0.33215198
+      - index: 33
+        weight: 0.27713758
+      - index: 32
+        weight: 0.02404326
+      - index: 3
+        weight: 0.5036889
+      - index: 33
+        weight: 0.23450628
+      - index: 2
+        weight: 0.15420553
+      - index: 34
+        weight: 0.10759926
+      - index: 3
+        weight: 0.5894784
+      - index: 2
+        weight: 0.30394292
+      - index: 33
+        weight: 0.106578685
+      - index: 3
+        weight: 0.71339124
+      - index: 2
+        weight: 0.11987743
+      - index: 34
+        weight: 0.106054254
+      - index: 33
+        weight: 0.06067704
+      - index: 31
+        weight: 0.36835492
+      - index: 33
+        weight: 0.26787356
+      - index: 32
+        weight: 0.26787353
+      - index: 35
+        weight: 0.09589805
+      - index: 33
+        weight: 0.3727027
+      - index: 35
+        weight: 0.30139205
+      - index: 31
+        weight: 0.26407763
+      - index: 32
+        weight: 0.0618276
+      - index: 33
+        weight: 0.66622996
+      - index: 32
+        weight: 0.1410001
+      - index: 35
+        weight: 0.11068192
+      - index: 34
+        weight: 0.08208801
+      - index: 33
+        weight: 0.4077147
+      - index: 34
+        weight: 0.2944116
+      - index: 35
+        weight: 0.17121418
+      - index: 3
+        weight: 0.12665951
+      - index: 33
+        weight: 0.39207244
+      - index: 3
+        weight: 0.3613121
+      - index: 34
+        weight: 0.24661542
+      - index: 34
+        weight: 0.40986148
+      - index: 3
+        weight: 0.3551606
+      - index: 33
+        weight: 0.23497795
+      - index: 3
+        weight: 0.5706839
+      - index: 34
+        weight: 0.2597649
+      - index: 33
+        weight: 0.16408877
+      - index: 40
+        weight: 0.0054623852
+      - index: 3
+        weight: 0.45160314
+      - index: 34
+        weight: 0.34316474
+      - index: 40
+        weight: 0.14565828
+      - index: 33
+        weight: 0.059573762
+      - index: 3
+        weight: 0.6313893
+      - index: 34
+        weight: 0.21538717
+      - index: 40
+        weight: 0.15322348
+      - index: 34
+        weight: 0.50901353
+      - index: 3
+        weight: 0.2849895
+      - index: 40
+        weight: 0.10957254
+      - index: 33
+        weight: 0.096424446
+      - index: 34
+        weight: 0.69020337
+      - index: 35
+        weight: 0.117434524
+      - index: 3
+        weight: 0.1026909
+      - index: 33
+        weight: 0.08967116
+      - index: 34
+        weight: 0.4829526
+      - index: 33
+        weight: 0.22568192
+      - index: 35
+        weight: 0.15973587
+      - index: 3
+        weight: 0.13162957
+      - index: 34
+        weight: 0.38795182
+      - index: 35
+        weight: 0.3305879
+      - index: 33
+        weight: 0.14794855
+      - index: 41
+        weight: 0.13351177
+      - index: 34
+        weight: 0.46964395
+      - index: 35
+        weight: 0.24009033
+      - index: 41
+        weight: 0.21391344
+      - index: 42
+        weight: 0.07635235
+      - index: 41
+        weight: 0.3752623
+      - index: 35
+        weight: 0.30635017
+      - index: 34
+        weight: 0.27015698
+      - index: 42
+        weight: 0.048230488
+      - index: 35
+        weight: 0.38892487
+      - index: 33
+        weight: 0.28445277
+      - index: 34
+        weight: 0.24165457
+      - index: 31
+        weight: 0.08496774
+      - index: 35
+        weight: 0.6063423
+      - index: 31
+        weight: 0.15778764
+      - index: 41
+        weight: 0.13510719
+      - index: 34
+        weight: 0.1007629
+      - index: 35
+        weight: 0.4637098
+      - index: 41
+        weight: 0.29360446
+      - index: 34
+        weight: 0.22248836
+      - index: 33
+        weight: 0.0201973
+      - index: 35
+        weight: 0.42304555
+      - index: 41
+        weight: 0.38523272
+      - index: 25
+        weight: 0.10678251
+      - index: 27
+        weight: 0.08493919
+      - index: 41
+        weight: 0.50719076
+      - index: 35
+        weight: 0.30208233
+      - index: 34
+        weight: 0.100390404
+      - index: 27
+        weight: 0.090336524
+      - index: 41
+        weight: 0.459404
+      - index: 27
+        weight: 0.23370695
+      - index: 35
+        weight: 0.21441904
+      - index: 25
+        weight: 0.09246998
+      - index: 35
+        weight: 0.4066679
+      - index: 31
+        weight: 0.38542038
+      - index: 33
+        weight: 0.13140802
+      - index: 25
+        weight: 0.07650375
+      - index: 35
+        weight: 0.4365194
+      - index: 25
+        weight: 0.22770275
+      - index: 41
+        weight: 0.18827865
+      - index: 31
+        weight: 0.14749926
+      - index: 41
+        weight: 0.311744
+      - index: 35
+        weight: 0.2507524
+      - index: 25
+        weight: 0.21998163
+      - index: 27
+        weight: 0.21752195
+      - index: 41
+        weight: 0.35480508
+      - index: 27
+        weight: 0.354805
+      - index: 25
+        weight: 0.16968109
+      - index: 35
+        weight: 0.12070885
+      - index: 29
+        weight: 0.459404
+      - index: 24
+        weight: 0.23370706
+      - index: 36
+        weight: 0.21441896
+      - index: 21
+        weight: 0.092470005
+      - index: 24
+        weight: 0.32927427
+      - index: 21
+        weight: 0.30608088
+      - index: 29
+        weight: 0.23472714
+      - index: 36
+        weight: 0.12991773
+      - index: 24
+        weight: 0.35480508
+      - index: 29
+        weight: 0.35480505
+      - index: 21
+        weight: 0.16968112
+      - index: 36
+        weight: 0.12070873
+      - index: 29
+        weight: 0.31174392
+      - index: 36
+        weight: 0.25075236
+      - index: 21
+        weight: 0.2199817
+      - index: 24
+        weight: 0.21752203
+      - index: 36
+        weight: 0.42304558
+      - index: 29
+        weight: 0.38523257
+      - index: 21
+        weight: 0.10678261
+      - index: 24
+        weight: 0.08493928
+      - index: 21
+        weight: 0.4048455
+      - index: 36
+        weight: 0.26344782
+      - index: 24
+        weight: 0.16770592
+      - index: 29
+        weight: 0.16400078
+      - index: 29
+        weight: 0.50719064
+      - index: 36
+        weight: 0.30208227
+      - index: 30
+        weight: 0.10039043
+      - index: 24
+        weight: 0.09033662
+      - index: 21
+        weight: 0.521103
+      - index: 24
+        weight: 0.2686972
+      - index: 36
+        weight: 0.112174906
+      - index: 29
+        weight: 0.098024815
+      - index: 29
+        weight: 0.39427847
+      - index: 36
+        weight: 0.32187432
+      - index: 30
+        weight: 0.28384715
+      - index: 21
+        weight: 0.7576623
+      - index: 24
+        weight: 0.12569402
+      - index: 37
+        weight: 0.058321893
+      - index: 23
+        weight: 0.058321893
+      - index: 36
+        weight: 0.4732686
+      - index: 29
+        weight: 0.2996566
+      - index: 30
+        weight: 0.22707477
+      - index: 30
+        weight: 0.45531517
+      - index: 36
+        weight: 0.38799053
+      - index: 29
+        weight: 0.15669435
+      - index: 36
+        weight: 0.6063425
+      - index: 37
+        weight: 0.15778759
+      - index: 29
+        weight: 0.13510698
+      - index: 30
+        weight: 0.10076296
+      - index: 30
+        weight: 0.49484298
+      - index: 36
+        weight: 0.25297248
+      - index: 29
+        weight: 0.22539102
+      - index: 32
+        weight: 0.026793534
+      - index: 30
+        weight: 0.6902034
+      - index: 36
+        weight: 0.1174345
+      - index: 0
+        weight: 0.10269092
+      - index: 32
+        weight: 0.08967117
+      - index: 36
+        weight: 0.4365195
+      - index: 21
+        weight: 0.22770287
+      - index: 29
+        weight: 0.18827847
+      - index: 37
+        weight: 0.1474992
+      - index: 37
+        weight: 0.3412401
+      - index: 36
+        weight: 0.3326678
+      - index: 21
+        weight: 0.32609212
+      - index: 21
+        weight: 0.573081
+      - index: 37
+        weight: 0.20535524
+      - index: 36
+        weight: 0.18284318
+      - index: 24
+        weight: 0.038720526
+      - index: 21
+        weight: 0.43771735
+      - index: 37
+        weight: 0.24149479
+      - index: 38
+        weight: 0.17014979
+      - index: 20
+        weight: 0.15063815
+      - index: 21
+        weight: 0.55348784
+      - index: 20
+        weight: 0.25210258
+      - index: 38
+        weight: 0.10442659
+      - index: 37
+        weight: 0.089983046
+      - index: 20
+        weight: 0.40889817
+      - index: 21
+        weight: 0.29437205
+      - index: 38
+        weight: 0.24417645
+      - index: 37
+        weight: 0.052553337
+      - index: 30
+        weight: 0.6812016
+      - index: 36
+        weight: 0.22530638
+      - index: 0
+        weight: 0.09349206
+      - index: 30
+        weight: 0.5316968
+      - index: 0
+        weight: 0.32843816
+      - index: 1
+        weight: 0.13986507
+      - index: 30
+        weight: 0.45348862
+      - index: 36
+        weight: 0.26372486
+      - index: 39
+        weight: 0.24419735
+      - index: 1
+        weight: 0.038589116
+      - index: 30
+        weight: 0.57165074
+      - index: 0
+        weight: 0.32005924
+      - index: 32
+        weight: 0.108290054
+      - index: 0
+        weight: 0.47117203
+      - index: 30
+        weight: 0.35803476
+      - index: 1
+        weight: 0.10863795
+      - index: 32
+        weight: 0.06215521
+      - index: 36
+        weight: 0.48584327
+      - index: 30
+        weight: 0.30187398
+      - index: 37
+        weight: 0.10614133
+      - index: 39
+        weight: 0.10614133
+      - index: 36
+        weight: 0.3457232
+      - index: 37
+        weight: 0.30292025
+      - index: 39
+        weight: 0.30292025
+      - index: 30
+        weight: 0.04843626
+      - index: 36
+        weight: 0.435149
+      - index: 37
+        weight: 0.41241336
+      - index: 21
+        weight: 0.08186178
+      - index: 39
+        weight: 0.070575766
+      - index: 37
+        weight: 0.6001494
+      - index: 36
+        weight: 0.15224397
+      - index: 38
+        weight: 0.13335635
+      - index: 39
+        weight: 0.1142503
+      - index: 37
+        weight: 0.4267652
+      - index: 21
+        weight: 0.2623139
+      - index: 38
+        weight: 0.19845243
+      - index: 36
+        weight: 0.11246849
+      - index: 38
+        weight: 0.43247476
+      - index: 37
+        weight: 0.32077578
+      - index: 20
+        weight: 0.14133883
+      - index: 21
+        weight: 0.10541065
+      - index: 38
+        weight: 0.3331068
+      - index: 20
+        weight: 0.28188682
+      - index: 21
+        weight: 0.2136091
+      - index: 37
+        weight: 0.17139731
+      - index: 38
+        weight: 0.44330952
+      - index: 20
+        weight: 0.3434809
+      - index: 14
+        weight: 0.14661942
+      - index: 37
+        weight: 0.066590115
+      - index: 20
+        weight: 0.49593797
+      - index: 38
+        weight: 0.31756657
+      - index: 21
+        weight: 0.098163135
+      - index: 14
+        weight: 0.08833224
+      - index: 20
+        weight: 0.4131441
+      - index: 38
+        weight: 0.29352352
+      - index: 14
+        weight: 0.21017371
+      - index: 15
+        weight: 0.08315875
+      - index: 38
+        weight: 0.39325434
+      - index: 20
+        weight: 0.29185122
+      - index: 14
+        weight: 0.29185113
+      - index: 15
+        weight: 0.023043256
+      - index: 38
+        weight: 0.45753568
+      - index: 14
+        weight: 0.35450348
+      - index: 20
+        weight: 0.15132463
+      - index: 11
+        weight: 0.036636226
+      - index: 14
+        weight: 0.41314405
+      - index: 38
+        weight: 0.2935235
+      - index: 20
+        weight: 0.21017377
+      - index: 15
+        weight: 0.08315869
+      - index: 20
+        weight: 0.3061814
+      - index: 14
+        weight: 0.30618137
+      - index: 38
+        weight: 0.24120976
+      - index: 15
+        weight: 0.14642745
+      - index: 14
+        weight: 0.4959379
+      - index: 38
+        weight: 0.31756657
+      - index: 11
+        weight: 0.098163135
+      - index: 20
+        weight: 0.08833231
+      - index: 14
+        weight: 0.4088982
+      - index: 11
+        weight: 0.2943721
+      - index: 38
+        weight: 0.24417649
+      - index: 13
+        weight: 0.052553274
+      - index: 38
+        weight: 0.5506647
+      - index: 20
+        weight: 0.16143343
+      - index: 14
+        weight: 0.16143338
+      - index: 37
+        weight: 0.12646851
+      - index: 38
+        weight: 0.51223505
+      - index: 37
+        weight: 0.19550817
+      - index: 14
+        weight: 0.16740555
+      - index: 11
+        weight: 0.12485128
+      - index: 38
+        weight: 0.4020103
+      - index: 14
+        weight: 0.34019536
+      - index: 11
+        weight: 0.25779438
+      - index: 11
+        weight: 0.5770788
+      - index: 38
+        weight: 0.22432248
+      - index: 14
+        weight: 0.19859868
+      - index: 11
+        weight: 0.55348784
+      - index: 14
+        weight: 0.25210258
+      - index: 38
+        weight: 0.10442659
+      - index: 13
+        weight: 0.089983046
+      - index: 11
+        weight: 0.78198683
+      - index: 6
+        weight: 0.116346784
+      - index: 13
+        weight: 0.06019422
+      - index: 14
+        weight: 0.041472215
+      - index: 37
+        weight: 0.4858287
+      - index: 38
+        weight: 0.43103206
+      - index: 39
+        weight: 0.08313924
+      - index: 37
+        weight: 0.37486193
+      - index: 39
+        weight: 0.37486193
+      - index: 38
+        weight: 0.19033663
+      - index: 11
+        weight: 0.059939574
+      - index: 11
+        weight: 0.40654346
+      - index: 38
+        weight: 0.30756864
+      - index: 37
+        weight: 0.14294396
+      - index: 39
+        weight: 0.14294396
+      - index: 11
+        weight: 0.6499896
+      - index: 39
+        weight: 0.35001042
+      - index: 11
+        weight: 0.8793174
+      - index: 6
+        weight: 0.12068262
+      - index: 11
+        weight: 0.61815506
+      - index: 6
+        weight: 0.3818449
+      - index: 11
+        weight: 0.64107245
+      - index: 6
+        weight: 0.3589275
+      - index: 6
+        weight: 0.5682202
+      - index: 11
+        weight: 0.43177983
+      - index: 37
+        weight: 0.44241104
+      - index: 39
+        weight: 0.44241104
+      - index: 36
+        weight: 0.1151779
+      - index: 39
+        weight: 0.7934334
+      - index: 37
+        weight: 0.15104572
+      - index: 1
+        weight: 0.055520847
+      - index: 39
+        weight: 0.7301278
+      - index: 11
+        weight: 0.14492635
+      - index: 37
+        weight: 0.124945834
+      - index: 39
+        weight: 0.70925605
+      - index: 1
+        weight: 0.23306976
+      - index: 11
+        weight: 0.057674214
+      - index: 11
+        weight: 0.4369419
+      - index: 39
+        weight: 0.28303808
+      - index: 6
+        weight: 0.28002003
+      - index: 6
+        weight: 0.4256689
+      - index: 5
+        weight: 0.26627854
+      - index: 11
+        weight: 0.18127069
+      - index: 39
+        weight: 0.12678187
+      - index: 6
+        weight: 0.5368382
+      - index: 11
+        weight: 0.3442019
+      - index: 5
+        weight: 0.118959986
+      - index: 6
+        weight: 0.5665037
+      - index: 5
+        weight: 0.30287775
+      - index: 11
+        weight: 0.13061853
+      - index: 6
+        weight: 0.6313894
+      - index: 11
+        weight: 0.21538714
+      - index: 5
+        weight: 0.15322354
+      - index: 5
+        weight: 0.44996414
+      - index: 6
+        weight: 0.4005002
+      - index: 1
+        weight: 0.14953564
+      - index: 5
+        weight: 0.42669562
+      - index: 1
+        weight: 0.37628436
+      - index: 6
+        weight: 0.1298431
+      - index: 39
+        weight: 0.06717689
+      - index: 1
+        weight: 0.3501019
+      - index: 39
+        weight: 0.28091747
+      - index: 5
+        weight: 0.2613867
+      - index: 6
+        weight: 0.10759398
+      - index: 1
+        weight: 0.55137813
+      - index: 39
+        weight: 0.30420303
+      - index: 5
+        weight: 0.1444189
+      - index: 1
+        weight: 0.57872444
+      - index: 5
+        weight: 0.2958543
+      - index: 39
+        weight: 0.09408587
+      - index: 4
+        weight: 0.03133534
+      - index: 1
+        weight: 0.6902033
+      - index: 5
+        weight: 0.11743456
+      - index: 0
+        weight: 0.1026909
+      - index: 4
+        weight: 0.08967123
+      - index: 39
+        weight: 0.6193269
+      - index: 1
+        weight: 0.38067317
+      - index: 39
+        weight: 0.49093598
+      - index: 1
+        weight: 0.46914282
+      - index: 30
+        weight: 0.039921194
+      - index: 1
+        weight: 0.6686363
+      - index: 39
+        weight: 0.23959611
+      - index: 0
+        weight: 0.09176753
+      - index: 1
+        weight: 0.48431942
+      - index: 0
+        weight: 0.29917237
+      - index: 30
+        weight: 0.12740226
+      - index: 39
+        weight: 0.089105956
+      - index: 1
+        weight: 0.57165074
+      - index: 0
+        weight: 0.32005924
+      - index: 4
+        weight: 0.108290054
+      - index: 0
+        weight: 0.47117203
+      - index: 1
+        weight: 0.35803476
+      - index: 30
+        weight: 0.10863795
+      - index: 4
+        weight: 0.06215521
+      - index: 39
+        weight: 0.6007359
+      - index: 36
+        weight: 0.16077852
+      - index: 30
+        weight: 0.119242765
+      - index: 1
+        weight: 0.119242765
+      - index: 30
+        weight: 0.30407763
+      - index: 1
+        weight: 0.30407763
+      - index: 39
+        weight: 0.19697253
+      - index: 0
+        weight: 0.19487219
+      - index: 0
+        weight: 0.43814874
+      - index: 30
+        weight: 0.28092566
+      - index: 1
+        weight: 0.28092566
+      - index: 0
+        weight: 0.59443694
+      - index: 30
+        weight: 0.2027815
+      - index: 1
+        weight: 0.2027815
+      - index: 3
+        weight: 0.45160314
+      - index: 34
+        weight: 0.34316474
+      - index: 40
+        weight: 0.14565828
+      - index: 33
+        weight: 0.059573762
+      - index: 3
+        weight: 0.5665037
+      - index: 40
+        weight: 0.30287772
+      - index: 34
+        weight: 0.13061854
+      - index: 3
+        weight: 0.6313893
+      - index: 34
+        weight: 0.21538717
+      - index: 40
+        weight: 0.15322348
+      - index: 3
+        weight: 0.42158237
+      - index: 40
+        weight: 0.30811372
+      - index: 34
+        weight: 0.27030396
+      - index: 34
+        weight: 0.40775785
+      - index: 40
+        weight: 0.26534307
+      - index: 3
+        weight: 0.25187886
+      - index: 42
+        weight: 0.075020224
+      - index: 40
+        weight: 0.51566255
+      - index: 3
+        weight: 0.30564904
+      - index: 34
+        weight: 0.1301604
+      - index: 10
+        weight: 0.048527993
+      - index: 34
+        weight: 0.50901353
+      - index: 3
+        weight: 0.2849895
+      - index: 40
+        weight: 0.10957254
+      - index: 33
+        weight: 0.096424446
+      - index: 40
+        weight: 0.44996408
+      - index: 3
+        weight: 0.4005002
+      - index: 10
+        weight: 0.14953569
+      - index: 34
+        weight: 0.69020337
+      - index: 35
+        weight: 0.117434524
+      - index: 3
+        weight: 0.1026909
+      - index: 33
+        weight: 0.08967116
+      - index: 40
+        weight: 0.4266955
+      - index: 10
+        weight: 0.37628436
+      - index: 3
+        weight: 0.1298431
+      - index: 9
+        weight: 0.06717707
+      - index: 34
+        weight: 0.55107516
+      - index: 42
+        weight: 0.19746996
+      - index: 40
+        weight: 0.17582221
+      - index: 3
+        weight: 0.07563268
+      - index: 34
+        weight: 0.4174228
+      - index: 41
+        weight: 0.24294625
+      - index: 42
+        weight: 0.23029813
+      - index: 35
+        weight: 0.10933281
+      - index: 42
+        weight: 0.34124014
+      - index: 40
+        weight: 0.33266774
+      - index: 34
+        weight: 0.3260921
+      - index: 34
+        weight: 0.46964395
+      - index: 35
+        weight: 0.24009033
+      - index: 41
+        weight: 0.21391344
+      - index: 42
+        weight: 0.07635235
+      - index: 41
+        weight: 0.3752623
+      - index: 35
+        weight: 0.30635017
+      - index: 34
+        weight: 0.27015698
+      - index: 42
+        weight: 0.048230488
+      - index: 40
+        weight: 0.45582458
+      - index: 34
+        weight: 0.237773
+      - index: 42
+        weight: 0.15402249
+      - index: 3
+        weight: 0.15237993
+      - index: 40
+        weight: 0.6287219
+      - index: 42
+        weight: 0.16361144
+      - index: 10
+        weight: 0.10448206
+      - index: 43
+        weight: 0.10318456
+      - index: 40
+        weight: 0.59851205
+      - index: 10
+        weight: 0.28716668
+      - index: 3
+        weight: 0.08825254
+      - index: 43
+        weight: 0.026068736
+      - index: 10
+        weight: 0.4477289
+      - index: 40
+        weight: 0.38152602
+      - index: 43
+        weight: 0.17074502
+      - index: 10
+        weight: 0.5787243
+      - index: 40
+        weight: 0.29585412
+      - index: 9
+        weight: 0.09408609
+      - index: 43
+        weight: 0.031335413
+      - index: 10
+        weight: 0.6902033
+      - index: 40
+        weight: 0.11743452
+      - index: 8
+        weight: 0.10269089
+      - index: 43
+        weight: 0.089671284
+      - index: 41
+        weight: 0.44300544
+      - index: 34
+        weight: 0.21851578
+      - index: 42
+        weight: 0.17533456
+      - index: 35
+        weight: 0.16314422
+      - index: 41
+        weight: 0.62954646
+      - index: 27
+        weight: 0.15383917
+      - index: 35
+        weight: 0.14674515
+      - index: 42
+        weight: 0.06986925
+      - index: 41
+        weight: 0.48304072
+      - index: 42
+        weight: 0.3890974
+      - index: 34
+        weight: 0.12786192
+      - index: 41
+        weight: 0.50719076
+      - index: 35
+        weight: 0.30208233
+      - index: 34
+        weight: 0.100390404
+      - index: 27
+        weight: 0.090336524
+      - index: 41
+        weight: 0.459404
+      - index: 27
+        weight: 0.23370695
+      - index: 35
+        weight: 0.21441904
+      - index: 25
+        weight: 0.09246998
+      - index: 42
+        weight: 0.4252194
+      - index: 34
+        weight: 0.26136374
+      - index: 41
+        weight: 0.20135586
+      - index: 40
+        weight: 0.112061076
+      - index: 42
+        weight: 0.6835405
+      - index: 40
+        weight: 0.17339844
+      - index: 41
+        weight: 0.073025405
+      - index: 44
+        weight: 0.070035554
+      - index: 40
+        weight: 0.4066678
+      - index: 42
+        weight: 0.38542032
+      - index: 43
+        weight: 0.13140799
+      - index: 34
+        weight: 0.076503806
+      - index: 43
+        weight: 0.37270266
+      - index: 40
+        weight: 0.30139205
+      - index: 42
+        weight: 0.26407763
+      - index: 44
+        weight: 0.061827596
+      - index: 40
+        weight: 0.38892484
+      - index: 43
+        weight: 0.28445274
+      - index: 10
+        weight: 0.24165468
+      - index: 42
+        weight: 0.084967725
+      - index: 43
+        weight: 0.46684504
+      - index: 10
+        weight: 0.3371099
+      - index: 40
+        weight: 0.19604513
+      - index: 10
+        weight: 0.5167183
+      - index: 43
+        weight: 0.2414605
+      - index: 40
+        weight: 0.17090379
+      - index: 8
+        weight: 0.07091735
+      - index: 10
+        weight: 0.4564069
+      - index: 8
+        weight: 0.2819302
+      - index: 43
+        weight: 0.26166296
+      - index: 10
+        weight: 0.5716507
+      - index: 8
+        weight: 0.32005912
+      - index: 43
+        weight: 0.1082902
+      - index: 8
+        weight: 0.5285978
+      - index: 10
+        weight: 0.4016715
+      - index: 43
+        weight: 0.069730766
+      - index: 8
+        weight: 0.45577058
+      - index: 10
+        weight: 0.29222423
+      - index: 43
+        weight: 0.18459281
+      - index: 19
+        weight: 0.06741236
+      - index: 8
+        weight: 0.30682942
+      - index: 43
+        weight: 0.28477225
+      - index: 19
+        weight: 0.27773517
+      - index: 10
+        weight: 0.13066307
+      - index: 8
+        weight: 0.59868115
+      - index: 19
+        weight: 0.1843053
+      - index: 10
+        weight: 0.1380377
+      - index: 43
+        weight: 0.07897592
+      - index: 8
+        weight: 0.7456387
+      - index: 10
+        weight: 0.2543613
+      - index: 19
+        weight: 0.44564977
+      - index: 8
+        weight: 0.41420594
+      - index: 43
+        weight: 0.14014424
+      - index: 19
+        weight: 0.6711341
+      - index: 8
+        weight: 0.137567
+      - index: 43
+        weight: 0.120125644
+      - index: 17
+        weight: 0.07117319
+      - index: 43
+        weight: 0.43907157
+      - index: 10
+        weight: 0.27617827
+      - index: 8
+        weight: 0.17699243
+      - index: 19
+        weight: 0.10775782
+      - index: 43
+        weight: 0.53900033
+      - index: 19
+        weight: 0.29570055
+      - index: 44
+        weight: 0.13217932
+      - index: 10
+        weight: 0.033119764
+      - index: 19
+        weight: 0.54743737
+      - index: 43
+        weight: 0.32783523
+      - index: 8
+        weight: 0.09628575
+      - index: 44
+        weight: 0.028441653
+      - index: 19
+        weight: 0.54206437
+      - index: 44
+        weight: 0.16994226
+      - index: 43
+        weight: 0.16994226
+      - index: 18
+        weight: 0.11805108
+      - index: 19
+        weight: 0.7350606
+      - index: 18
+        weight: 0.1485421
+      - index: 17
+        weight: 0.08731652
+      - index: 44
+        weight: 0.029080806
+      - index: 19
+        weight: 0.5081815
+      - index: 18
+        weight: 0.34696743
+      - index: 44
+        weight: 0.090958916
+      - index: 17
+        weight: 0.053892206
+      - index: 43
+        weight: 0.6662297
+      - index: 44
+        weight: 0.14100012
+      - index: 40
+        weight: 0.110681914
+      - index: 10
+        weight: 0.08208821
+      - index: 44
+        weight: 0.40178582
+      - index: 43
+        weight: 0.40178582
+      - index: 42
+        weight: 0.12383924
+      - index: 19
+        weight: 0.072589144
+      - index: 19
+        weight: 0.3215704
+      - index: 44
+        weight: 0.32139802
+      - index: 43
+        weight: 0.32139802
+      - index: 18
+        weight: 0.0356336
+      - index: 44
+        weight: 0.4332188
+      - index: 19
+        weight: 0.23766784
+      - index: 18
+        weight: 0.22287492
+      - index: 43
+        weight: 0.10623846
+      - index: 19
+        weight: 0.40931222
+      - index: 18
+        weight: 0.32430384
+      - index: 44
+        weight: 0.2451184
+      - index: 43
+        weight: 0.021265475
+      - index: 18
+        weight: 0.46876314
+      - index: 44
+        weight: 0.21824579
+      - index: 19
+        weight: 0.21285266
+      - index: 28
+        weight: 0.10013849
+      - index: 18
+        weight: 0.5098929
+      - index: 19
+        weight: 0.29315728
+      - index: 16
+        weight: 0.10476016
+      - index: 44
+        weight: 0.09218967
+      - index: 18
+        weight: 0.64304054
+      - index: 16
+        weight: 0.13372582
+      - index: 19
+        weight: 0.12763776
+      - index: 28
+        weight: 0.09559585
+      - index: 42
+        weight: 0.36835492
+      - index: 44
+        weight: 0.26787353
+      - index: 43
+        weight: 0.26787353
+      - index: 40
+        weight: 0.09589805
+      - index: 44
+        weight: 0.5030857
+      - index: 42
+        weight: 0.3564602
+      - index: 43
+        weight: 0.08345682
+      - index: 28
+        weight: 0.056997184
+      - index: 44
+        weight: 0.6939249
+      - index: 43
+        weight: 0.14686151
+      - index: 28
+        weight: 0.08550062
+      - index: 42
+        weight: 0.07371293
+      - index: 44
+        weight: 0.49194217
+      - index: 28
+        weight: 0.3552326
+      - index: 18
+        weight: 0.15282525
+      - index: 44
+        weight: 0.35765752
+      - index: 18
+        weight: 0.3295971
+      - index: 28
+        weight: 0.2249684
+      - index: 19
+        weight: 0.087777026
+      - index: 28
+        weight: 0.40986153
+      - index: 18
+        weight: 0.35516047
+      - index: 44
+        weight: 0.23497802
+      - index: 18
+        weight: 0.54120845
+      - index: 28
+        weight: 0.24634834
+      - index: 44
+        weight: 0.15561382
+      - index: 19
+        weight: 0.056829385
+      - index: 18
+        weight: 0.4516031
+      - index: 28
+        weight: 0.34316474
+      - index: 22
+        weight: 0.1456583
+      - index: 44
+        weight: 0.0595739
+      - index: 18
+        weight: 0.5474996
+      - index: 28
+        weight: 0.18676965
+      - index: 22
+        weight: 0.13286543
+      - index: 16
+        weight: 0.13286543
+      - index: 28
+        weight: 0.5090135
+      - index: 18
+        weight: 0.28498948
+      - index: 22
+        weight: 0.10957252
+      - index: 44
+        weight: 0.09642458
+      - index: 28
+        weight: 0.7376372
+      - index: 18
+        weight: 0.109748274
+      - index: 44
+        weight: 0.095833905
+      - index: 26
+        weight: 0.056780588
+      - index: 28
+        weight: 0.57476294
+      - index: 44
+        weight: 0.26858452
+      - index: 18
+        weight: 0.1566525
+      - index: 28
+        weight: 0.5795411
+      - index: 44
+        weight: 0.22101265
+      - index: 27
+        weight: 0.19944623
+      - index: 28
+        weight: 0.59801435
+      - index: 27
+        weight: 0.2723836
+      - index: 26
+        weight: 0.097222164
+      - index: 44
+        weight: 0.032379884
+      - index: 27
+        weight: 0.4704925
+      - index: 28
+        weight: 0.3387147
+      - index: 41
+        weight: 0.13032298
+      - index: 26
+        weight: 0.060469855
+      - index: 44
+        weight: 0.45129398
+      - index: 28
+        weight: 0.38339338
+      - index: 42
+        weight: 0.13480419
+      - index: 41
+        weight: 0.030508481
+      - index: 41
+        weight: 0.3814791
+      - index: 42
+        weight: 0.24791825
+      - index: 27
+        weight: 0.21228234
+      - index: 28
+        weight: 0.1583203
+      - index: 27
+        weight: 0.40179476
+      - index: 28
+        weight: 0.30447316
+      - index: 41
+        weight: 0.26609224
+      - index: 44
+        weight: 0.027639803
+      - index: 41
+        weight: 0.4795603
+      - index: 27
+        weight: 0.47169247
+      - index: 28
+        weight: 0.0487472
+      - index: 27
+        weight: 0.5930642
+      - index: 41
+        weight: 0.2895481
+      - index: 28
+        weight: 0.1173877
+      - index: 27
+        weight: 0.52221787
+      - index: 41
+        weight: 0.37266883
+      - index: 25
+        weight: 0.10511332
+      - index: 42
+        weight: 0.52915984
+      - index: 41
+        weight: 0.29042464
+      - index: 44
+        weight: 0.18041557
+      - index: 41
+        weight: 0.58547705
+      - index: 27
+        weight: 0.2324328
+      - index: 42
+        weight: 0.18209015
+      - index: 41
+        weight: 0.5270861
+      - index: 27
+        weight: 0.35750017
+      - index: 35
+        weight: 0.08718711
+      - index: 25
+        weight: 0.028226597
+      - index: 41
+        weight: 0.35480508
+      - index: 27
+        weight: 0.354805
+      - index: 25
+        weight: 0.16968109
+      - index: 35
+        weight: 0.12070885
+      m_AlignBytes: 16
+    influenceOffsets:
+      serializedContents: 0000000004000000080000000b0000000f00000013000000160000001a0000001d0000002100000025000000280000002c0000003000000034000000370000003b0000003f00000043000000460000004a0000004e0000005100000053000000570000005a0000005e0000006200000065000000690000006d0000007000000074000000780000007b0000007e0000008100000085000000890000008d0000009000000094000000980000009b0000009e000000a2000000a6000000aa000000ad000000b1000000b5000000b9000000bd000000c0000000c4000000c7000000cb000000ce000000d1000000d5000000d9000000dd000000e0000000e3000000e6000000e8000000eb000000ef000000f2000000f5000000f9000000fd000000ff00000003010000070100000b0100000e0100001101000015010000180100001c0100001f0100002301000025010000280100002c0100003001000034010000380100003a0100003e0100004201000045010000490100004d0100005101000054010000580100005c0100006001000063010000670100006b0100006e0100007101000075010000780100007c0100008001000083010000870100008b0100008e01000092010000960100009a0100009e010000a2010000a6010000aa010000ae010000b2010000b5010000b9010000bd010000c1010000c5010000c8010000cb010000cf010000d3010000d7010000db010000df010000e3010000e7010000eb010000ef010000f3010000f7010000fb010000ff01000003020000070200000b0200000f02000013020000170200001b0200001f02000023020000270200002b0200002f02000033020000360200003a0200003d0200004102000045020000490200004d0200004f02000053020000570200005b0200005f02000063020000670200006a0200006e02000072020000760200007a0200007d0200008102000084020000880200008c0200009002000094020000970200009b0200009f020000a3020000a7020000ab020000af020000b3020000b7020000bb020000bf020000c3020000c7020000ca020000ce020000d2020000d6020000da020000de020000e2020000e5020000e9020000ec020000f0020000f4020000f8020000fb020000fd0200000003000004030000080300000c030000100300001303000016030000190300001d0300002103000024030000280300002c0300003003000034030000380300003c0300003f03000043030000460300004a0300004e03000052030000560300005a0300005e0300006103000065030000690300006d0300007103000075030000790300007d0300008103000084030000880300008c0300009003000094030000980300009b0300009f030000a3030000a6030000aa030000ae030000b2030000b5030000b9030000bc030000c0030000c4030000c8030000cc030000d0030000d4030000d8030000db030000df030000e3030000e7030000eb030000ee030000f2030000f6030000f9030000fd0300000004000003040000070400000b0400000f04000013040000160400001a0400001e0400002104000025040000290400002d0400003104000034040000380400003b0400003f04000043040000470400004b0400004e04000052040000560400005a0400005e0400006204000065040000680400006c0400007004000073040000770400007b0400007f04000083040000870400008b0400008f04000093040000970400009b0400009f040000a3040000a7040000ab040000af040000b3040000b7040000bb040000bf040000c3040000c7040000cb040000cf040000d3040000d6040000da040000dd040000e0040000e4040000e8040000ec040000f0040000f3040000f7040000fb040000ff0400000305000006050000090500000d0500001005000014050000180500001c0500002005000024050000280500002c0500003005000034050000380500003c0500004005000044050000480500004c0500005005000054050000580500005c0500005f05000062050000660500006a0500006d050000710500007505000077050000790500007b0500007d0500007f0500008205000085050000880500008b0500008e0500009205000095050000980500009b0500009e050000a2050000a6050000a9050000ad050000b1050000b3050000b6050000b9050000bd050000c0050000c4050000c8050000cc050000cf050000d2050000d6050000d9050000dc050000df050000e3050000e7050000eb050000ee050000f2050000f6050000fa050000fe0500000106000005060000090600000d0600001106000015060000180600001c0600002006000024060000280600002b0600002f06000033060000370600003b0600003f06000043060000470600004a0600004e0600005106000054060000570600005b0600005f0600006306000065060000680600006c0600007006000074060000780600007c0600008006000084060000880600008c0600009006000094060000980600009c060000a0060000a4060000a8060000ac060000b0060000b3060000b7060000ba060000be060000c2060000c6060000ca060000ce060000d1060000d4060000d8060000dc060000e0060000e4060000e8060000eb060000ee060000f1060000f4060000f7060000fb060000ff060000
+      m_AlignBytes: 16
+  bonesOnParticles:
+    influences:
+      serializedContents: []
+      m_AlignBytes: 16
+    influenceOffsets:
+      serializedContents: 
+      m_AlignBytes: 16
+  bindPoses:
+    serializedContents:
+    - e00: -0.0000010896474
+      e01: -0.7071061
+      e02: -0.70710754
+      e03: 0.0000001899384
+      e10: 0.8872787
+      e11: -0.3261427
+      e12: 0.32614067
+      e13: 0.0029713565
+      e20: -0.46123394
+      e21: -0.6274011
+      e22: 0.62740034
+      e23: -0.49173686
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.08397671
+      e01: -0.99292284
+      e02: -0.083976775
+      e03: -0.026769899
+      e10: 0.70710605
+      e11: -0.00000016391277
+      e12: 0.70710754
+      e13: -0.0000005036452
+      e20: -0.70210326
+      e21: -0.11876103
+      e22: 0.70210177
+      e23: -0.49143392
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.000000007450581
+      e01: 0.83802253
+      e02: 0.5456358
+      e03: 0.032242663
+      e10: -1.0000001
+      e11: -0.000000029802322
+      e12: 0.00000008940697
+      e13: -0.000000043978126
+      e20: 0.000000029802322
+      e21: -0.5456358
+      e22: 0.8380224
+      e23: -0.4891362
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.0000036824495
+      e01: 0.7071084
+      e02: 0.7071053
+      e03: 0.00000010831487
+      e10: -0.8872795
+      e11: -0.32613745
+      e12: 0.3261435
+      e13: 0.0029722508
+      e20: 0.4612322
+      e21: -0.62740123
+      e22: 0.6274014
+      e23: -0.4917368
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.6877559
+      e01: -0.68771225
+      e02: -0.23247312
+      e03: -0.054355852
+      e10: 0.70708555
+      e11: -0.707128
+      e12: -0.0000073090196
+      e13: -0.0000015982072
+      e20: -0.16438322
+      e21: -0.16438341
+      e22: 0.97260284
+      e23: -0.48871124
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.0123058045
+      e01: 0.9875708
+      e02: -0.1566926
+      e03: -0.04085336
+      e10: -0.93037933
+      e11: -0.06872806
+      e12: -0.36009836
+      e13: -0.039682753
+      e20: -0.3663918
+      e21: 0.14135228
+      e22: 0.9196611
+      e23: -0.48781
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.0000034365803
+      e01: 0.70710826
+      e02: -0.7071053
+      e03: -0.000000128065
+      e10: -0.8872787
+      e11: -0.32613856
+      e12: -0.32614428
+      e13: -0.0029715216
+      e20: -0.46123362
+      e21: 0.6274006
+      e22: 0.62740105
+      e23: -0.49173683
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.00000010430813
+      e01: 0.8380224
+      e02: -0.54563606
+      e03: -0.032242537
+      e10: -1.0000001
+      e11: 0.000000067055225
+      e12: -0.00000011920929
+      e13: 0.000000026916014
+      e20: 0
+      e21: 0.54563606
+      e22: 0.8380223
+      e23: -0.48913622
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.0000027418137
+      e01: 0.70710576
+      e02: -0.7071078
+      e03: -0.000000005825761
+      e10: -0.8872796
+      e11: 0.3261424
+      e12: 0.326138
+      e13: 0.0029724522
+      e20: 0.46123183
+      e21: 0.6274015
+      e22: 0.6274014
+      e23: -0.4917368
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0
+      e01: 1
+      e02: 0.000000007450581
+      e03: -0.00000000354947
+      e10: -0.9851514
+      e11: -9.313226e-10
+      e12: 0.17168781
+      e13: 0.03740506
+      e20: 0.17168781
+      e21: -0.000000007450581
+      e22: 0.9851514
+      e23: -0.4883265
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.08397656
+      e01: -0.9929229
+      e02: 0.083976954
+      e03: 0.026769891
+      e10: 0.7071067
+      e11: -0.00000031292439
+      e12: -0.7071068
+      e13: 0.000000025297718
+      e20: 0.70210254
+      e21: 0.11876109
+      e22: 0.7021024
+      e23: -0.49143392
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.08397588
+      e01: -0.08397761
+      e02: 0.9929229
+      e03: -0.026769903
+      e10: 0.7071059
+      e11: 0.7071077
+      e12: 0.0000013411045
+      e13: -0.00000072623106
+      e20: -0.7021036
+      e21: 0.70210147
+      e22: 0.11876103
+      e23: -0.49143395
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: -6.368018e-11
+      e10: 0
+      e11: 0.290443
+      e12: -0.9568924
+      e13: 0.08433088
+      e20: 0
+      e21: 0.9568924
+      e22: 0.290443
+      e23: -0.48495314
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.000000029802322
+      e01: 0
+      e02: -1
+      e03: 0.0000000036033339
+      e10: -0.9851514
+      e11: -0.17168748
+      e12: 0
+      e13: -0.03740514
+      e20: -0.17168751
+      e21: 0.9851514
+      e22: 0.000000029802322
+      e23: -0.48832652
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.80243886
+      e01: 0.572449
+      e02: 0.16850549
+      e03: 0.04033573
+      e10: 0.32864225
+      e11: -0.18824904
+      e12: -0.9255036
+      e13: -0.011326847
+      e20: -0.49808258
+      e21: 0.7980381
+      e22: -0.3391893
+      e23: -0.48981574
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.99292284
+      e01: 0.08397639
+      e02: -0.08397725
+      e03: 0.026769843
+      e10: -0.0000006146729
+      e11: -0.70710677
+      e12: -0.7071068
+      e13: -0.000000093717794
+      e20: -0.11876115
+      e21: 0.70210254
+      e22: -0.7021024
+      e23: -0.49143386
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.9875708
+      e01: -0.15669234
+      e02: -0.012305327
+      e03: -0.040853366
+      e10: -0.06872764
+      e11: -0.36009926
+      e12: -0.930379
+      e13: -0.039682325
+      e20: 0.14135212
+      e21: 0.91966087
+      e22: -0.3663926
+      e23: -0.48781008
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.000000059604645
+      e01: 0.00000008940697
+      e02: -1.0000001
+      e03: -0.000000035237175
+      e10: -0.9851514
+      e11: 0.17168826
+      e12: -0.000000029802322
+      e13: 0.037404846
+      e20: 0.17168835
+      e21: 0.9851514
+      e22: 0
+      e23: -0.48832655
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.70710796
+      e01: -0.70710564
+      e02: 0.000002503395
+      e03: -0.000000077313175
+      e10: -0.3261385
+      e11: -0.32614264
+      e12: -0.8872793
+      e13: -0.0029721966
+      e20: 0.627401
+      e21: 0.6274015
+      e22: -0.4612324
+      e23: -0.49173674
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.000000014901161
+      e01: -0.000000029802322
+      e02: -1
+      e03: 0.000000005182907
+      e10: -0.7071072
+      e11: 0.70710635
+      e12: -0.000000029802322
+      e13: 0.00000033201178
+      e20: 0.70710635
+      e21: 0.7071072
+      e22: -0.000000014901161
+      e23: -0.49124995
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.8024372
+      e01: 0.1685105
+      e02: 0.57245
+      e03: -0.040335864
+      e10: 0.3286465
+      e11: 0.9255026
+      e12: 0.1882457
+      e13: -0.011326725
+      e20: -0.49808258
+      e21: 0.339189
+      e22: -0.79803807
+      e23: -0.48981562
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.083976515
+      e01: -0.992923
+      e02: 0.083976924
+      e03: -0.02676993
+      e10: -0.707106
+      e11: 0.00000018626451
+      e12: 0.7071077
+      e13: 0.00000058727113
+      e20: -0.70210344
+      e21: -0.11876112
+      e22: -0.7021019
+      e23: -0.49143404
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.9875706
+      e01: -0.012305288
+      e02: -0.15669234
+      e03: 0.040853333
+      e10: -0.068727545
+      e11: 0.93037915
+      e12: 0.36009884
+      e13: -0.039682552
+      e20: 0.14135216
+      e21: 0.3663922
+      e22: -0.91966075
+      e23: -0.48780993
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.00000013504177
+      e01: 1.0000001
+      e02: 0.000000014901161
+      e03: -0.000000009225206
+      e10: 0.9851516
+      e11: 0.00000004377216
+      e12: -0.1716873
+      e13: 0.037405252
+      e20: -0.1716873
+      e21: 0
+      e22: -0.9851516
+      e23: -0.48832655
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.16849947
+      e01: 0.80244136
+      e02: -0.57244724
+      e03: 0.040336072
+      e10: 0.9255048
+      e11: -0.32863647
+      e12: -0.18825212
+      e13: 0.011327466
+      e20: -0.3391883
+      e21: -0.4980823
+      e22: -0.7980384
+      e23: -0.48981562
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.99292284
+      e01: 0.083976895
+      e02: 0.0839766
+      e03: -0.026769899
+      e10: 0.00000021234155
+      e11: -0.70710695
+      e12: 0.7071069
+      e13: -0.000000038468876
+      e20: 0.11876106
+      e21: -0.7021026
+      e22: -0.70210266
+      e23: -0.49143398
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.00000017695129
+      e01: 1.0000001
+      e02: 0
+      e03: 0.000000021343112
+      e10: 0.9851516
+      e11: -0.00000017695129
+      e12: 0.1716878
+      e13: -0.03740509
+      e20: 0.1716878
+      e21: 0
+      e22: -0.98515177
+      e23: -0.48832667
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.8024485
+      e01: 0.16848062
+      e02: -0.5724426
+      e03: 0.04033625
+      e10: 0.3286203
+      e11: 0.925508
+      e12: -0.18826467
+      e13: 0.01132788
+      e20: 0.49808127
+      e21: -0.339189
+      e22: -0.7980387
+      e23: -0.4898156
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.08397656
+      e01: -0.99292284
+      e02: -0.083977014
+      e03: 0.026769865
+      e10: -0.70710665
+      e11: 0.00000040978193
+      e12: -0.7071068
+      e13: -0.000000053956967
+      e20: 0.70210254
+      e21: 0.11876109
+      e22: -0.7021023
+      e23: -0.4914339
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.8024393
+      e01: -0.5724485
+      e02: 0.16850524
+      e03: 0.040335994
+      e10: -0.32864177
+      e11: -0.18824925
+      e12: 0.92550373
+      e13: 0.011326922
+      e20: -0.49808216
+      e21: -0.7980385
+      e22: -0.33918908
+      e23: -0.4898157
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.08397606
+      e01: 0.08397716
+      e02: 0.99292296
+      e03: -0.02677
+      e10: -0.7071059
+      e11: 0.7071077
+      e12: -0.0000008940697
+      e13: 0.0000006882583
+      e20: -0.70210356
+      e21: -0.7021015
+      e22: 0.11876084
+      e23: -0.49143392
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: -0.000000015766844
+      e02: 0.00000006062332
+      e03: -2.1930113e-10
+      e10: -0.00000006243013
+      e11: -0.1716882
+      e12: 0.9851513
+      e13: 0.037404854
+      e20: -0.0000000051244164
+      e21: -0.9851513
+      e22: -0.1716882
+      e23: -0.4883265
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.6877753
+      e01: -0.2324732
+      e02: -0.6876927
+      e03: 0.0543558
+      e10: 0.7070666
+      e11: 0.0000136345625
+      e12: 0.7071469
+      e13: -0.0000031269844
+      e20: -0.16438335
+      e21: -0.9726027
+      e22: 0.16438344
+      e23: -0.48871124
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.6877532
+      e01: 0.2324734
+      e02: 0.68771493
+      e03: -0.054355707
+      e10: -0.70708823
+      e11: 0.0000062584877
+      e12: 0.70712554
+      e13: -0.0000014966537
+      e20: 0.1643835
+      e21: -0.97260284
+      e22: 0.16438344
+      e23: -0.48871127
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.08397676
+      e01: 0.083976716
+      e02: 0.99292296
+      e03: -0.02676991
+      e10: -0.7071066
+      e11: -0.70710725
+      e12: 0.00000008940697
+      e13: -0.00000019019764
+      e20: 0.70210284
+      e21: -0.7021023
+      e22: 0.11876087
+      e23: -0.49143398
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.012305379
+      e01: 0.15669256
+      e02: -0.98757076
+      e03: -0.040853277
+      e10: 0.9303792
+      e11: 0.36009863
+      e12: 0.0687277
+      e13: -0.039682638
+      e20: 0.36639202
+      e21: -0.91966105
+      e22: -0.14135239
+      e23: -0.48781005
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.15669206
+      e01: 0.012304947
+      e02: 0.9875709
+      e03: 0.040853392
+      e10: -0.36009866
+      e11: 0.9303793
+      e12: -0.068727076
+      e13: 0.039682675
+      e20: -0.91966116
+      e21: -0.36639193
+      e22: -0.14135206
+      e23: -0.4878101
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.00000008940697
+      e01: -1
+      e02: 0.000000834465
+      e03: 0.000000058221595
+      e10: -0.17168808
+      e11: 0.0000008046627
+      e12: 0.9851514
+      e13: 0.037404906
+      e20: -0.9851514
+      e21: -0.00000008940697
+      e22: -0.17168814
+      e23: -0.48832664
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.000000461936
+      e01: 0.70710593
+      e02: 0.70710766
+      e03: 0.00000016372935
+      e10: 0.42866856
+      e11: 0.6388449
+      e12: -0.63884306
+      e13: -0.08603086
+      e20: -0.9034618
+      e21: 0.30311453
+      e22: -0.30311438
+      e23: -0.48491415
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.00000011920929
+      e01: -1
+      e02: 0.000000059604645
+      e03: -0.00000006382887
+      e10: 0.1716879
+      e11: 0
+      e12: 0.98515147
+      e13: -0.037404995
+      e20: -0.98515147
+      e21: 0.000000059604645
+      e22: 0.17168784
+      e23: -0.48832664
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.15669233
+      e01: -0.9875709
+      e02: 0.01230526
+      e03: -0.04085336
+      e10: 0.3600992
+      e11: -0.06872758
+      e12: -0.9303791
+      e13: 0.039682373
+      e20: 0.9196609
+      e21: -0.14135212
+      e22: 0.36639246
+      e23: -0.48781008
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.5724443
+      e01: -0.8024464
+      e02: -0.16848612
+      e03: -0.04033607
+      e10: -0.18826127
+      e11: 0.32862514
+      e12: -0.92550707
+      e13: -0.011327652
+      e20: 0.79803854
+      e21: -0.49808168
+      e22: -0.33918923
+      e23: -0.48981562
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.000000004656613
+      e01: 0.0000004917383
+      e02: 1.0000001
+      e03: 0.000000057130787
+      e10: -0.17168824
+      e11: -0.9851516
+      e12: 0.0000005066395
+      e13: -0.03740488
+      e20: 0.98515147
+      e21: -0.17168824
+      e22: -0.00000017415732
+      e23: -0.48832652
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: -0.23247312
+      e01: 0.6877111
+      e02: 0.687757
+      e03: -0.05435586
+      e10: 0.0000075101852
+      e11: -0.7071291
+      e12: 0.7070845
+      e13: 0.0000017805487
+      e20: 0.97260284
+      e21: 0.16438329
+      e22: 0.1643833
+      e23: -0.48871115
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.23247315
+      e01: -0.6877025
+      e02: 0.68776554
+      e03: 0.05435583
+      e10: 0.000010311604
+      e11: -0.7071374
+      e12: -0.7070761
+      e13: 0.0000024490096
+      e20: 0.9726028
+      e21: 0.16438329
+      e22: -0.16438334
+      e23: -0.48871112
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_AlignBytes: 16
+  checksum: 950038003
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fccc267b58171450ea23d051b1b2d2c6, type: 3}
+  m_Name: BallBP 1
+  m_EditorClassIdentifier: 
+  m_Checksum: 950038003
+  m_Empty: 0
+  m_Edited: 0
+  m_ActiveParticleCount: 45
+  m_InitialActiveParticleCount: 45
+  _bounds:
+    m_Center: {x: -0.00000008940697, y: 0.000000029802322, z: -0.000000029802322}
+    m_Extent: {x: 0.47465357, y: 0.47465357, z: 0.47465354}
+  positions:
+  - {x: -0.22944213, y: -0.30754694, z: 0.30754694}
+  - {x: -0.34278893, y: -0.08494365, z: 0.3427889}
+  - {x: -1.432804e-10, y: -0.29391026, z: 0.39231434}
+  - {x: 0.22944209, y: -0.30754694, z: 0.30754694}
+  - {x: -0.117718354, y: -0.11771833, z: 0.46268564}
+  - {x: -0.21615231, y: 0.106571294, z: 0.42792878}
+  - {x: -0.22944213, y: 0.30754694, z: 0.30754694}
+  - {x: -1.432804e-10, y: 0.29391026, z: 0.39231434}
+  - {x: 0.22944209, y: 0.30754694, z: 0.30754694}
+  - {x: 0.120689355, y: 1.302549e-11, z: 0.47465354}
+  - {x: 0.34278896, y: 0.08494365, z: 0.3427889}
+  - {x: -0.34278893, y: 0.3427889, z: 0.08494365}
+  - {x: 6.368018e-11, y: 0.43955457, z: 0.22154678}
+  - {x: -0.12068929, y: 0.4746536, z: 6.512745e-12}
+  - {x: -0.27261308, y: 0.365669, z: -0.18341999}
+  - {x: -0.084943645, y: 0.34278888, z: -0.3427889}
+  - {x: 0.1065713, y: 0.4279288, z: -0.21615231}
+  - {x: 0.120689355, y: 0.47465354, z: 6.512745e-12}
+  - {x: 0.30754685, y: 0.30754694, z: -0.22944212}
+  - {x: 0.3473662, y: 0.34736615, z: 6.7487144e-12}
+  - {x: -0.27261308, y: 0.18341999, z: -0.36566898}
+  - {x: -0.34278893, y: -0.08494365, z: -0.3427889}
+  - {x: 0.1065713, y: 0.21615231, z: -0.4279288}
+  - {x: -0.12068929, y: 0, z: -0.47465357}
+  - {x: -0.18341997, y: -0.2726132, z: -0.36566898}
+  - {x: 0.08494365, y: -0.3427889, z: -0.3427889}
+  - {x: 0.120689355, y: 1.302549e-11, z: -0.47465354}
+  - {x: 0.2726132, y: -0.18341999, z: -0.365669}
+  - {x: 0.34278896, y: 0.08494365, z: -0.3427889}
+  - {x: -0.27261308, y: -0.365669, z: -0.18341999}
+  - {x: -0.34278893, y: -0.3427889, z: 0.08494365}
+  - {x: 5.210196e-11, y: -0.47465354, z: -0.12068935}
+  - {x: -0.117718354, y: -0.46268567, z: 0.11771833}
+  - {x: 0.11771833, y: -0.46268564, z: 0.11771833}
+  - {x: 0.34278896, y: -0.3427889, z: 0.08494365}
+  - {x: 0.21615231, y: -0.4279288, z: -0.1065713}
+  - {x: -0.4279289, y: -0.21615231, z: -0.106571294}
+  - {x: -0.47465366, y: -5.210196e-11, z: -0.12068935}
+  - {x: -0.4012227, y: 0.20194478, z: -0.20194478}
+  - {x: -0.47465366, y: -5.210196e-11, z: 0.12068935}
+  - {x: 0.42792884, y: -0.1065713, z: 0.21615231}
+  - {x: 0.36566895, y: -0.27261317, z: -0.18341999}
+  - {x: 0.47465348, y: -0.12068935, z: 6.512745e-12}
+  - {x: 0.46268556, y: 0.11771833, z: 0.11771833}
+  - {x: 0.46268556, y: 0.11771833, z: -0.11771833}
+  restPositions:
+  - {x: -0.22944213, y: -0.30754694, z: 0.30754694, w: 1}
+  - {x: -0.34278893, y: -0.08494365, z: 0.3427889, w: 1}
+  - {x: -1.432804e-10, y: -0.29391026, z: 0.39231434, w: 1}
+  - {x: 0.22944209, y: -0.30754694, z: 0.30754694, w: 1}
+  - {x: -0.117718354, y: -0.11771833, z: 0.46268564, w: 1}
+  - {x: -0.21615231, y: 0.106571294, z: 0.42792878, w: 1}
+  - {x: -0.22944213, y: 0.30754694, z: 0.30754694, w: 1}
+  - {x: -1.432804e-10, y: 0.29391026, z: 0.39231434, w: 1}
+  - {x: 0.22944209, y: 0.30754694, z: 0.30754694, w: 1}
+  - {x: 0.120689355, y: 1.302549e-11, z: 0.47465354, w: 1}
+  - {x: 0.34278896, y: 0.08494365, z: 0.3427889, w: 1}
+  - {x: -0.34278893, y: 0.3427889, z: 0.08494365, w: 1}
+  - {x: 6.368018e-11, y: 0.43955457, z: 0.22154678, w: 1}
+  - {x: -0.12068929, y: 0.4746536, z: 6.512745e-12, w: 1}
+  - {x: -0.27261308, y: 0.365669, z: -0.18341999, w: 1}
+  - {x: -0.084943645, y: 0.34278888, z: -0.3427889, w: 1}
+  - {x: 0.1065713, y: 0.4279288, z: -0.21615231, w: 1}
+  - {x: 0.120689355, y: 0.47465354, z: 6.512745e-12, w: 1}
+  - {x: 0.30754685, y: 0.30754694, z: -0.22944212, w: 1}
+  - {x: 0.3473662, y: 0.34736615, z: 6.7487144e-12, w: 1}
+  - {x: -0.27261308, y: 0.18341999, z: -0.36566898, w: 1}
+  - {x: -0.34278893, y: -0.08494365, z: -0.3427889, w: 1}
+  - {x: 0.1065713, y: 0.21615231, z: -0.4279288, w: 1}
+  - {x: -0.12068929, y: 0, z: -0.47465357, w: 1}
+  - {x: -0.18341997, y: -0.2726132, z: -0.36566898, w: 1}
+  - {x: 0.08494365, y: -0.3427889, z: -0.3427889, w: 1}
+  - {x: 0.120689355, y: 1.302549e-11, z: -0.47465354, w: 1}
+  - {x: 0.2726132, y: -0.18341999, z: -0.365669, w: 1}
+  - {x: 0.34278896, y: 0.08494365, z: -0.3427889, w: 1}
+  - {x: -0.27261308, y: -0.365669, z: -0.18341999, w: 1}
+  - {x: -0.34278893, y: -0.3427889, z: 0.08494365, w: 1}
+  - {x: 5.210196e-11, y: -0.47465354, z: -0.12068935, w: 1}
+  - {x: -0.117718354, y: -0.46268567, z: 0.11771833, w: 1}
+  - {x: 0.11771833, y: -0.46268564, z: 0.11771833, w: 1}
+  - {x: 0.34278896, y: -0.3427889, z: 0.08494365, w: 1}
+  - {x: 0.21615231, y: -0.4279288, z: -0.1065713, w: 1}
+  - {x: -0.4279289, y: -0.21615231, z: -0.106571294, w: 1}
+  - {x: -0.47465366, y: -5.210196e-11, z: -0.12068935, w: 1}
+  - {x: -0.4012227, y: 0.20194478, z: -0.20194478, w: 1}
+  - {x: -0.47465366, y: -5.210196e-11, z: 0.12068935, w: 1}
+  - {x: 0.42792884, y: -0.1065713, z: 0.21615231, w: 1}
+  - {x: 0.36566895, y: -0.27261317, z: -0.18341999, w: 1}
+  - {x: 0.47465348, y: -0.12068935, z: 6.512745e-12, w: 1}
+  - {x: 0.46268556, y: 0.11771833, z: 0.11771833, w: 1}
+  - {x: 0.46268556, y: 0.11771833, z: -0.11771833, w: 1}
+  orientations:
+  - {x: 0.41795373, y: 0.10777064, z: -0.6988462, w: 0.5703632}
+  - {x: 0.30898023, y: -0.23125818, z: -0.63602775, w: 0.6682212}
+  - {x: 0.2012322, y: -0.20123217, z: 0.6778684, w: 0.6778685}
+  - {x: 0.41795325, y: -0.10776994, z: 0.6988446, w: 0.57036567}
+  - {x: -0.108131036, y: -0.04479137, z: 0.91753566, w: -0.38003913}
+  - {x: -0.18490614, y: -0.077324994, z: 0.7072296, w: 0.67798}
+  - {x: -0.41795364, y: 0.1077694, z: 0.6988448, w: 0.5703652}
+  - {x: -0.2012323, y: 0.20123225, z: 0.67786837, w: 0.67786855}
+  - {x: -0.107771665, y: 0.4179528, z: 0.5703631, w: 0.69884664}
+  - {x: 0.0609274, y: 0.060927395, z: 0.704477, w: 0.704477}
+  - {x: -0.30897996, y: 0.23125783, z: -0.63602793, w: 0.6682213}
+  - {x: -0.25402123, y: -0.61326396, z: -0.28621557, w: 0.6909857}
+  - {x: -0.59563285, y: -0, z: 0, w: 0.80325687}
+  - {x: -0.5412226, y: 0.45505837, z: 0.5412226, w: 0.45505837}
+  - {x: -0.76319677, y: -0.29517004, z: 0.107959405, w: 0.5645797}
+  - {x: 0.9222435, y: 0.022763992, z: -0.054957937, w: -0.38200578}
+  - {x: -0.82372063, y: 0.06841518, z: -0.03916583, w: 0.56148887}
+  - {x: -0.45505816, y: 0.54122275, z: 0.4550582, w: 0.5412228}
+  - {x: 0.78969663, y: -0.3271016, z: 0.19862168, w: -0.4795135}
+  - {x: -0.27059826, y: 0.6532814, z: 0.27059823, w: 0.6532814}
+  - {x: 0.13238043, y: 0.9388794, z: 0.14044262, w: -0.28505594}
+  - {x: 0.6682212, y: -0.6360278, z: -0.2312582, w: 0.30898035}
+  - {x: -0.020682383, y: 0.979491, z: 0.18542565, w: 0.07607127}
+  - {x: 0.704477, y: 0.7044771, z: -0.060927216, w: -0.06092722}
+  - {x: 0.75749165, y: 0.57028556, z: -0.30087313, w: 0.102255315}
+  - {x: 0.92224354, y: 0.022764353, z: 0.054957733, w: 0.38200578}
+  - {x: 0.7044771, y: 0.7044771, z: 0.060927387, w: 0.06092739}
+  - {x: 0.13236517, y: 0.9388817, z: -0.14044732, w: 0.28505293}
+  - {x: 0.66822124, y: -0.63602793, z: 0.23125783, w: -0.30898}
+  - {x: 0.7631968, y: -0.29516968, z: -0.10795935, w: 0.56457984}
+  - {x: 0.2540214, y: -0.61326396, z: 0.28621542, w: 0.6909857}
+  - {x: 0.7654045, y: -0.00000002554106, z: 0.000000018127313, w: 0.64354944}
+  - {x: 0.61712605, y: 0.1922595, z: -0.3451791, w: 0.6804727}
+  - {x: 0.61712307, y: -0.1922691, z: 0.3451898, w: 0.68046737}
+  - {x: 0.6132637, y: -0.25402197, z: 0.6909857, w: 0.2862155}
+  - {x: 0.4454097, y: 0.6101528, z: -0.34865585, w: 0.55476385}
+  - {x: 0.11649114, y: -0.74639523, z: 0.14574015, w: 0.6388144}
+  - {x: -0.5412225, y: 0.54122293, z: 0.455058, w: -0.45505843}
+  - {x: -0.4075135, y: -0.6967711, z: 0.12045869, w: 0.57786894}
+  - {x: 0.45505825, y: -0.4550583, z: -0.5412227, w: 0.5412227}
+  - {x: -0.36933818, y: 0.42472705, z: -0.63083524, w: 0.53408164}
+  - {x: -0.3309531, y: 0.7483747, z: -0.47556016, w: 0.32287458}
+  - {x: 0.7044771, y: -0.060927376, z: 0.704477, w: 0.060927726}
+  - {x: 0.5723357, y: 0.30040002, z: 0.7252561, w: 0.23705544}
+  - {x: 0.7252575, y: -0.23705104, z: 0.5723375, w: -0.30039653}
+  restOrientations:
+  - {x: 0.41795373, y: 0.10777064, z: -0.6988462, w: 0.5703632}
+  - {x: 0.30898023, y: -0.23125818, z: -0.63602775, w: 0.6682212}
+  - {x: 0.2012322, y: -0.20123217, z: 0.6778684, w: 0.6778685}
+  - {x: 0.41795325, y: -0.10776994, z: 0.6988446, w: 0.57036567}
+  - {x: -0.108131036, y: -0.04479137, z: 0.91753566, w: -0.38003913}
+  - {x: -0.18490614, y: -0.077324994, z: 0.7072296, w: 0.67798}
+  - {x: -0.41795364, y: 0.1077694, z: 0.6988448, w: 0.5703652}
+  - {x: -0.2012323, y: 0.20123225, z: 0.67786837, w: 0.67786855}
+  - {x: -0.107771665, y: 0.4179528, z: 0.5703631, w: 0.69884664}
+  - {x: 0.0609274, y: 0.060927395, z: 0.704477, w: 0.704477}
+  - {x: -0.30897996, y: 0.23125783, z: -0.63602793, w: 0.6682213}
+  - {x: -0.25402123, y: -0.61326396, z: -0.28621557, w: 0.6909857}
+  - {x: -0.59563285, y: -0, z: 0, w: 0.80325687}
+  - {x: -0.5412226, y: 0.45505837, z: 0.5412226, w: 0.45505837}
+  - {x: -0.76319677, y: -0.29517004, z: 0.107959405, w: 0.5645797}
+  - {x: 0.9222435, y: 0.022763992, z: -0.054957937, w: -0.38200578}
+  - {x: -0.82372063, y: 0.06841518, z: -0.03916583, w: 0.56148887}
+  - {x: -0.45505816, y: 0.54122275, z: 0.4550582, w: 0.5412228}
+  - {x: 0.78969663, y: -0.3271016, z: 0.19862168, w: -0.4795135}
+  - {x: -0.27059826, y: 0.6532814, z: 0.27059823, w: 0.6532814}
+  - {x: 0.13238043, y: 0.9388794, z: 0.14044262, w: -0.28505594}
+  - {x: 0.6682212, y: -0.6360278, z: -0.2312582, w: 0.30898035}
+  - {x: -0.020682383, y: 0.979491, z: 0.18542565, w: 0.07607127}
+  - {x: 0.704477, y: 0.7044771, z: -0.060927216, w: -0.06092722}
+  - {x: 0.75749165, y: 0.57028556, z: -0.30087313, w: 0.102255315}
+  - {x: 0.92224354, y: 0.022764353, z: 0.054957733, w: 0.38200578}
+  - {x: 0.7044771, y: 0.7044771, z: 0.060927387, w: 0.06092739}
+  - {x: 0.13236517, y: 0.9388817, z: -0.14044732, w: 0.28505293}
+  - {x: 0.66822124, y: -0.63602793, z: 0.23125783, w: -0.30898}
+  - {x: 0.7631968, y: -0.29516968, z: -0.10795935, w: 0.56457984}
+  - {x: 0.2540214, y: -0.61326396, z: 0.28621542, w: 0.6909857}
+  - {x: 0.7654045, y: -0.00000002554106, z: 0.000000018127313, w: 0.64354944}
+  - {x: 0.61712605, y: 0.1922595, z: -0.3451791, w: 0.6804727}
+  - {x: 0.61712307, y: -0.1922691, z: 0.3451898, w: 0.68046737}
+  - {x: 0.6132637, y: -0.25402197, z: 0.6909857, w: 0.2862155}
+  - {x: 0.4454097, y: 0.6101528, z: -0.34865585, w: 0.55476385}
+  - {x: 0.11649114, y: -0.74639523, z: 0.14574015, w: 0.6388144}
+  - {x: -0.5412225, y: 0.54122293, z: 0.455058, w: -0.45505843}
+  - {x: -0.4075135, y: -0.6967711, z: 0.12045869, w: 0.57786894}
+  - {x: 0.45505825, y: -0.4550583, z: -0.5412227, w: 0.5412227}
+  - {x: -0.36933818, y: 0.42472705, z: -0.63083524, w: 0.53408164}
+  - {x: -0.3309531, y: 0.7483747, z: -0.47556016, w: 0.32287458}
+  - {x: 0.7044771, y: -0.060927376, z: 0.704477, w: 0.060927726}
+  - {x: 0.5723357, y: 0.30040002, z: 0.7252561, w: 0.23705544}
+  - {x: 0.7252575, y: -0.23705104, z: 0.5723375, w: -0.30039653}
+  velocities:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  angularVelocities:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  invMasses:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  invRotationalMasses:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  filters: 0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff0200ffff
+  principalRadii:
+  - {x: 0.17320508, y: 0.16921565, z: 0.06992737}
+  - {x: 0.17320508, y: 0.15533438, z: 0.059272755}
+  - {x: 0.17320508, y: 0.16533272, z: 0.06810289}
+  - {x: 0.17320508, y: 0.16921599, z: 0.069927506}
+  - {x: 0.17320508, y: 0.17011446, z: 0.057735026}
+  - {x: 0.17320508, y: 0.13760959, z: 0.057735026}
+  - {x: 0.17320508, y: 0.16921559, z: 0.069927365}
+  - {x: 0.17320508, y: 0.16533272, z: 0.068102844}
+  - {x: 0.17320508, y: 0.16921607, z: 0.06992747}
+  - {x: 0.17320508, y: 0.16948596, z: 0.057735026}
+  - {x: 0.17320508, y: 0.15533446, z: 0.05927283}
+  - {x: 0.17320508, y: 0.15533434, z: 0.059272856}
+  - {x: 0.17320508, y: 0.16893153, z: 0.057735022}
+  - {x: 0.17320508, y: 0.16948642, z: 0.057735026}
+  - {x: 0.17320508, y: 0.17052157, z: 0.067034066}
+  - {x: 0.17320508, y: 0.15533456, z: 0.05927291}
+  - {x: 0.17320508, y: 0.13760942, z: 0.057735026}
+  - {x: 0.17320508, y: 0.16948596, z: 0.057735026}
+  - {x: 0.17320508, y: 0.16921584, z: 0.069927454}
+  - {x: 0.17320508, y: 0.16799337, z: 0.06374458}
+  - {x: 0.17320508, y: 0.17052157, z: 0.06703404}
+  - {x: 0.17320508, y: 0.1553344, z: 0.059272736}
+  - {x: 0.17320508, y: 0.13760942, z: 0.057735026}
+  - {x: 0.17320508, y: 0.16948637, z: 0.057735022}
+  - {x: 0.17320508, y: 0.17052166, z: 0.067034036}
+  - {x: 0.17320508, y: 0.15533446, z: 0.05927286}
+  - {x: 0.17320508, y: 0.16948599, z: 0.057735026}
+  - {x: 0.17320508, y: 0.17052147, z: 0.067034}
+  - {x: 0.17320508, y: 0.15533444, z: 0.05927283}
+  - {x: 0.17320508, y: 0.17052159, z: 0.067033984}
+  - {x: 0.17320508, y: 0.15533441, z: 0.059272777}
+  - {x: 0.17320508, y: 0.16948585, z: 0.057735026}
+  - {x: 0.17320508, y: 0.17011426, z: 0.057735022}
+  - {x: 0.17320508, y: 0.17011441, z: 0.057735026}
+  - {x: 0.17320508, y: 0.15533443, z: 0.059272923}
+  - {x: 0.17320508, y: 0.13760959, z: 0.057735026}
+  - {x: 0.17320508, y: 0.13760945, z: 0.057735026}
+  - {x: 0.17320508, y: 0.16948602, z: 0.057735022}
+  - {x: 0.17320508, y: 0.16159627, z: 0.057735026}
+  - {x: 0.17320508, y: 0.16948594, z: 0.057735026}
+  - {x: 0.17320508, y: 0.13760935, z: 0.057735026}
+  - {x: 0.17320508, y: 0.17052148, z: 0.06703397}
+  - {x: 0.17320508, y: 0.16948576, z: 0.057735026}
+  - {x: 0.17320508, y: 0.17011432, z: 0.057735026}
+  - {x: 0.17320508, y: 0.17011423, z: 0.057735026}
+  colors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  points: 
+  edges: 
+  triangles: 0000000000000000000000000000000000000000010000000100000000000000000000000000000001000000010000000200000000000000000000000100000001000000010000000200000002000000000000000200000002000000020000000000000002000000040000000400000002000000020000000100000000000000040000000000000004000000040000000400000001000000040000000400000004000000040000000400000001000000010000000100000001000000040000000100000005000000010000000300000002000000020000000200000002000000030000000300000002000000030000000300000003000000030000000400000004000000020000000200000004000000020000000100000004000000050000000400000004000000050000000500000001000000050000000400000005000000050000000500000005000000010000000500000005000000050000000100000005000000050000000500000006000000050000000500000006000000060000000600000006000000050000000600000006000000060000000600000007000000060000000600000005000000050000000500000007000000050000000700000006000000050000000600000007000000070000000700000007000000060000000700000007000000070000000500000005000000070000000700000005000000090000000900000005000000040000000700000009000000070000000900000007000000070000000700000007000000080000000800000007000000070000000700000008000000080000000800000008000000080000000900000004000000090000000900000009000000090000000400000004000000090000000400000009000000090000000900000009000000070000000700000009000000090000000800000007000000080000000700000009000000080000000a0000000800000008000000090000000a0000000800000008000000080000000a000000080000000a0000000a0000000a0000000a0000000a000000090000000a0000000a0000000a0000000a000000090000000a000000280000000a0000000a0000000900000009000000090000000a000000090000000a0000000a00000028000000280000000a00000003000000030000000a0000000900000028000000030000002800000003000000030000002800000002000000090000000400000009000000090000000200000009000000020000000300000003000000090000000300000002000000030000000300000006000000060000000b0000000b0000000600000006000000060000000b0000000b0000000700000006000000060000000b0000000b0000000b000000070000000c000000060000000c0000000c00000007000000060000000c0000000c0000000c0000000c0000000c0000000c0000000700000007000000070000000c00000007000000060000000c000000060000000d0000000b000000060000000c0000000d000000060000000d0000000b0000000b0000000b0000000b0000000d0000000b0000000e0000000b000000070000000c0000000c000000080000000c000000070000000c0000000c000000080000000c0000000d0000000d0000000c0000000d0000000c0000000d0000000d0000000d0000000d0000000d0000000c0000000b0000000d0000000d0000000e0000000b0000000d0000000d0000000e0000000d0000000e0000000e0000000b0000000e0000000e0000000e0000000b0000000e0000000e0000000f0000000e0000000e0000000e0000000e0000000f0000000e0000000f0000000f0000000f0000000f0000000f0000000e0000000f0000000e0000000f0000000f0000000e0000000f000000100000000f0000000e0000000d0000000f0000000f0000000d000000100000000d0000000d0000000e000000100000000d0000000d0000000f0000000f000000100000000f0000001000000010000000100000000f0000001000000010000000100000001000000010000000100000000f00000010000000120000001000000011000000100000000d0000000d0000000c0000000d0000000c000000110000000d0000001100000010000000100000001000000010000000110000001100000010000000110000001000000011000000100000001200000010000000100000001100000012000000100000001000000012000000120000001200000012000000100000001200000012000000120000001200000013000000120000001200000013000000130000001100000013000000120000001300000013000000130000001300000013000000110000001100000011000000110000001300000011000000110000001100000013000000110000001100000013000000130000001300000013000000080000000800000013000000110000001300000008000000130000000800000008000000130000000c00000011000000110000000c000000110000000c00000011000000110000000c000000110000000c000000080000000800000011000000080000000c00000008000000080000000e000000140000000e0000000e00000014000000140000000f000000140000000e00000014000000140000001400000014000000140000000f0000000f0000000e0000000f000000100000000f0000000f000000140000000f000000140000000f0000000f000000140000000f000000140000001400000014000000140000001500000015000000140000001400000014000000150000001500000015000000150000001500000010000000160000000f0000001600000016000000100000000f00000016000000160000001600000016000000160000001600000010000000100000001200000016000000100000000f0000000f00000016000000160000000f000000160000000f000000170000001400000016000000170000000f000000140000001700000017000000170000001700000016000000150000001400000017000000170000001500000017000000170000001700000017000000170000001500000015000000150000001500000017000000150000001800000015000000150000001800000018000000180000001800000015000000180000001800000018000000150000001700000018000000180000001500000018000000170000001800000018000000180000001800000019000000190000001800000018000000180000001900000019000000190000001900000019000000170000001700000018000000180000001700000017000000190000001800000019000000180000001700000019000000170000001900000019000000190000001b000000190000001a0000001700000017000000170000001600000017000000160000001a00000017000000170000001a000000190000001a0000001a00000017000000190000001a0000001b0000001b0000001a0000001a00000019000000190000001b000000190000001b0000001b0000001b000000190000001b0000001b0000001b0000001b0000001b0000001b000000190000001b0000001b0000001c0000001c0000001b0000001b0000001b0000001c0000001c0000001c0000001c0000001c0000001c0000001b0000001a0000001a0000001a0000001a0000001a0000001c0000001a0000001a0000001c0000001c0000001c0000001c0000001a0000001c000000120000001c0000001a000000160000001a00000016000000160000001a0000001a00000016000000160000001c0000001a00000016000000160000001c0000001600000016000000120000001c0000001c0000001200000012000000120000001200000016000000180000001d00000018000000180000001d0000001d0000001d0000001d000000180000001d0000001d0000001d0000001d000000180000001800000018000000180000001d0000001d000000180000001f0000001f00000018000000190000001d0000001f0000001d0000001f0000001d0000001d0000001d0000001d0000001e0000001e0000001d0000001d0000001d0000001e0000001e0000001e0000001e0000001e00000019000000190000001f0000001f00000019000000190000001b00000019000000190000001f000000190000001f000000190000001f0000001f0000001f0000001f0000001f0000001f0000001f0000001d0000001d0000001f00000020000000200000001f0000001f0000001e0000001d000000200000001d0000002000000020000000200000001e00000020000000200000002000000020000000200000001e0000001e0000001e0000001e000000200000001e000000000000001e0000001e000000000000000000000000000000000000001e0000000000000002000000000000001e0000002000000020000000000000001e0000002000000020000000000000002000000000000000000000000200000020000000000000000000000002000000000000000200000002000000200000002000000021000000020000002000000020000000210000002000000002000000030000000200000021000000030000000200000003000000030000002100000020000000200000001f00000021000000200000001f0000001f000000210000001f0000002000000021000000210000002100000021000000200000002100000021000000210000000300000021000000210000002200000003000000210000002100000022000000210000002200000003000000030000000300000003000000220000000300000022000000220000002200000022000000220000002100000022000000220000002200000022000000210000002200000029000000220000002100000021000000230000002200000021000000230000002100000023000000230000002300000022000000230000002200000023000000290000002300000023000000220000002900000023000000230000002300000023000000230000002900000023000000290000002300000029000000290000001f00000023000000210000001f000000230000001f00000023000000230000001f000000230000001f000000230000001f00000019000000230000001900000023000000230000001900000029000000230000001b000000290000001900000029000000290000001b000000290000001b0000001b000000240000001d0000001d000000150000001d000000240000001800000015000000150000001d000000240000001d0000001d00000024000000240000001e000000240000001d00000024000000240000002400000024000000240000001e0000001e0000001d0000001e000000150000002400000024000000250000001500000024000000240000002500000024000000250000001500000015000000150000001500000025000000150000001400000015000000000000001e0000001e000000240000001e000000240000001e0000001e000000240000001e000000240000002400000024000000240000002500000025000000240000002500000025000000240000002400000015000000250000002500000025000000250000002500000025000000260000002500000026000000260000001500000026000000260000002600000015000000260000001400000014000000260000002600000014000000260000001400000026000000140000001400000026000000260000001400000014000000260000000e0000000e0000002600000026000000140000000e0000000e0000000e000000260000000e000000260000000e0000000e00000026000000260000000e0000000e000000260000000b0000000b00000026000000260000000e0000000b0000000b0000002600000025000000260000002600000025000000250000002500000025000000260000000b000000260000000b00000026000000250000000b000000250000000b0000000b0000000b000000060000000b00000027000000250000002500000024000000270000002500000025000000270000000b0000002700000027000000250000000b00000027000000270000002700000027000000270000000b000000270000000b00000027000000060000000b0000000600000001000000050000002700000001000000060000000500000001000000010000000100000001000000270000000100000027000000270000002700000001000000270000002700000001000000010000000100000000000000010000002400000027000000270000001e000000270000002400000027000000270000001e000000270000001e000000010000000100000027000000010000001e0000001e000000010000001e00000001000000010000001e00000000000000010000002800000003000000220000002200000003000000220000000300000028000000280000002800000028000000280000002a0000002200000022000000290000002200000022000000280000002200000028000000220000002a000000280000002a000000280000002800000028000000280000000a0000000a0000002800000028000000280000000a0000000a0000002900000029000000220000002900000029000000290000002200000029000000290000002a0000002a0000002a000000290000002a0000002a0000002a000000280000002a00000028000000280000002b0000002b000000280000002a000000280000002b000000280000002b0000000a000000280000002b0000002b000000280000002b0000000a0000000a0000000a0000000a0000002b0000000a000000080000000a0000000800000013000000130000000a0000002b0000002b000000080000000a0000002b0000002b0000002b0000002b0000002b000000080000002b0000002b000000130000000800000013000000130000002b000000130000002b000000130000002b0000002b000000130000002c00000013000000130000002b0000002c0000001300000013000000130000001200000012000000130000002c0000001300000012000000120000002b0000002b0000002a0000002c0000002b0000002a0000002b0000002a0000002a0000002a0000002c0000002a0000002b0000002c0000002c0000002c0000002c0000002b0000002c0000002c0000002c000000120000002c0000002c0000001c000000120000002c0000002c0000001c0000002c00000012000000120000001c000000120000001c0000001c0000002c0000001c0000001c0000001c0000001c0000002c0000001c0000001b0000001c0000001c0000002c0000002c0000002c000000290000002c000000290000001c0000002c000000290000001b0000001c0000001b0000001b00000029000000290000001b000000290000001b000000290000001b0000002c0000002a000000290000002a0000002a0000002c000000290000002a000000290000001b0000002900000029000000
+  distanceConstraintsData:
+    batches: []
+  bendConstraintsData:
+    batches: []
+  skinConstraintsData:
+    batches: []
+  tetherConstraintsData:
+    batches: []
+  stretchShearConstraintsData:
+    batches: []
+  bendTwistConstraintsData:
+    batches: []
+  shapeMatchingConstraintsData:
+    batches:
+    - m_IDs: 000000000100000002000000030000000400000005000000
+      m_IDToIndex: 000000000100000002000000030000000400000005000000
+      m_ConstraintCount: 6
+      m_ActiveConstraintCount: 6
+      m_InitialActiveConstraintCount: 6
+      particleIndices:
+        serializedContents: 000000000100000002000000040000001e0000002000000007000000060000000500000009000000080000000c0000000e0000000b0000000d0000000f000000140000002600000012000000100000001100000013000000160000001c0000002c000000180000001500000017000000190000001d0000001f0000002200000003000000210000002900000023000000280000002a000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000060000000c00000012000000190000001f000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 060000000600000006000000070000000600000007000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 000000000000000000000000000000000000000000000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 0000000001000000020000000300000004000000
+      m_IDToIndex: 0000000001000000020000000300000004000000
+      m_ConstraintCount: 5
+      m_ActiveConstraintCount: 5
+      m_InitialActiveConstraintCount: 5
+      particleIndices:
+        serializedContents: 0100000000000000040000000500000006000000270000001e0000000300000002000000280000000a0000000900000021000000220000000f0000000e000000100000000d000000140000001600000017000000130000001200000011000000080000002b0000002c0000001b000000190000001a0000001c00000029000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000070000000e000000150000001b000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 0700000007000000070000000600000005000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 0000000000000000000000000000000000000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 00000000010000000200000003000000
+      m_IDToIndex: 00000000010000000200000003000000
+      m_ConstraintCount: 4
+      m_ActiveConstraintCount: 4
+      m_InitialActiveConstraintCount: 4
+      particleIndices:
+        serializedContents: 020000000000000004000000030000000900000020000000210000000600000005000000070000000b0000000c0000000d0000002700000001000000140000000e0000000f0000001500000017000000260000001c0000001b0000001a00000012000000160000002c00000029000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000070000000f00000015000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 07000000080000000600000007000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 00000000000000000000000000000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 0000000001000000020000000300000004000000
+      m_IDToIndex: 0000000001000000020000000300000004000000
+      m_ConstraintCount: 5
+      m_ActiveConstraintCount: 5
+      m_InitialActiveConstraintCount: 5
+      particleIndices:
+        serializedContents: 0400000000000000020000000100000005000000090000000b000000060000000d0000000e00000026000000250000002700000016000000100000000f00000012000000170000001a0000001c0000001d000000180000001f0000001e000000200000002400000015000000280000000a00000003000000220000002a0000002b000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000060000000d000000140000001b000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 0600000007000000070000000700000006000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 0000000000000000000000000000000000000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 0000000001000000020000000300000004000000
+      m_IDToIndex: 0000000001000000020000000300000004000000
+      m_ConstraintCount: 5
+      m_ActiveConstraintCount: 5
+      m_InitialActiveConstraintCount: 5
+      particleIndices:
+        serializedContents: 050000000100000004000000060000000700000009000000100000000f0000000d000000120000001100000016000000150000001400000017000000180000001d000000240000002500000026000000210000000200000020000000030000001f00000022000000230000002b000000280000002a0000000a00000008000000130000002c000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000060000000c000000140000001b000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 0600000006000000080000000700000007000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 0000000000000000000000000000000000000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 000000000100000002000000
+      m_IDToIndex: 000000000100000002000000
+      m_ConstraintCount: 3
+      m_ActiveConstraintCount: 3
+      m_InitialActiveConstraintCount: 3
+      particleIndices:
+        serializedContents: 0800000007000000090000000a0000000c00000013000000110000002b000000170000000f00000014000000160000001500000018000000190000001a0000001e0000001d0000002000000000000000240000002700000001000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 000000000800000010000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 080000000800000007000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 000000000000000000000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 00000000010000000200000003000000
+      m_IDToIndex: 00000000010000000200000003000000
+      m_ConstraintCount: 4
+      m_ActiveConstraintCount: 4
+      m_InitialActiveConstraintCount: 4
+      particleIndices:
+        serializedContents: 09000000070000000500000004000000080000000a00000003000000020000000d0000000b000000060000000c0000000e0000000f00000010000000110000001900000018000000170000001b0000001a0000001f0000002300000029000000240000001d000000150000001e0000002500000027000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000080000001000000018000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 08000000080000000800000006000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 00000000000000000000000000000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 00000000010000000200000003000000
+      m_IDToIndex: 00000000010000000200000003000000
+      m_ConstraintCount: 4
+      m_ActiveConstraintCount: 4
+      m_InitialActiveConstraintCount: 4
+      particleIndices:
+        serializedContents: 0a000000080000000900000028000000030000002b0000001a0000001700000016000000190000001b0000001c000000200000001d0000001f0000001e000000000000000200000021000000250000001500000024000000260000000b00000027000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000060000000c00000013000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 06000000060000000700000006000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 00000000000000000000000000000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 00000000010000000200000003000000
+      m_IDToIndex: 00000000010000000200000003000000
+      m_ConstraintCount: 4
+      m_ActiveConstraintCount: 4
+      m_InitialActiveConstraintCount: 4
+      particleIndices:
+        serializedContents: 0c00000007000000060000000d00000008000000110000001f0000001d0000001800000019000000200000002100000023000000260000001500000025000000140000000e0000000b0000002a0000002200000028000000290000002b0000002c000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000060000000d00000013000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 06000000070000000600000006000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 00000000000000000000000000000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 000000000100000002000000
+      m_IDToIndex: 000000000100000002000000
+      m_ConstraintCount: 3
+      m_ActiveConstraintCount: 3
+      m_InitialActiveConstraintCount: 3
+      particleIndices:
+        serializedContents: 11000000100000000d0000000c000000120000001300000008000000230000002100000022000000290000001f000000190000002700000025000000240000000b00000006000000010000001e000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000070000000d000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 070000000600000007000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 000000000000000000000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 00000000
+      m_IDToIndex: 00000000
+      m_ConstraintCount: 1
+      m_ActiveConstraintCount: 1
+      m_InitialActiveConstraintCount: 1
+      particleIndices:
+        serializedContents: 290000002200000023000000190000001b0000002a0000002c0000001c000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 08000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 00000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+    - m_IDs: 00000000
+      m_IDToIndex: 00000000
+      m_ConstraintCount: 1
+      m_ActiveConstraintCount: 1
+      m_InitialActiveConstraintCount: 1
+      particleIndices:
+        serializedContents: 2c000000130000002b000000120000002a0000001c00000029000000
+        m_AlignBytes: 16
+      lambdas:
+        serializedContents: []
+        m_AlignBytes: 16
+      firstIndex:
+        serializedContents: 00000000
+        m_AlignBytes: 16
+      numIndices:
+        serializedContents: 07000000
+        m_AlignBytes: 16
+      explicitGroup:
+        serializedContents: 00000000
+        m_AlignBytes: 16
+      materialParameters:
+        serializedContents:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        m_AlignBytes: 16
+      restComs:
+        serializedContents: []
+        m_AlignBytes: 16
+      coms:
+        serializedContents: []
+        m_AlignBytes: 16
+      orientations:
+        serializedContents: []
+        m_AlignBytes: 16
+      linearTransforms:
+        serializedContents: []
+        m_AlignBytes: 16
+      plasticDeformations:
+        serializedContents: []
+        m_AlignBytes: 16
+  aerodynamicConstraintsData:
+    batches: []
+  chainConstraintsData:
+    batches: []
+  volumeConstraintsData:
+    batches: []
+  groups: []
+  inputMesh: {fileID: 4300000, guid: 2aa4d1401124f4f56bec911ef61b4766, type: 3}
+  scale: {x: 1, y: 1, z: 1}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  m_Skinmap: {fileID: -814034216833292471}
+  surfaceSamplingMode: 1
+  surfaceResolution: 5
+  volumeSamplingMode: 0
+  volumeResolution: 8
+  skeleton: {fileID: 0}
+  rootBone: {fileID: 0}
+  boneRotation: {x: 0, y: 0, z: 0, w: 0}
+  maxAnisotropy: 3
+  smoothing: 0.25
+  shapeResolution: 48
+  generatedMesh: {fileID: 4300000, guid: 2aa4d1401124f4f56bec911ef61b4766, type: 3}
+  vertexToParticle: 000000000000000000000000000000000000000001000000000000000100000002000000010000000200000002000000040000000200000002000000040000000400000001000000010000000100000005000000020000000300000002000000030000000300000002000000040000000400000004000000050000000500000005000000050000000500000006000000060000000600000006000000060000000600000007000000050000000700000007000000070000000700000007000000050000000900000007000000070000000700000008000000080000000800000009000000090000000900000009000000080000000a0000000800000008000000080000000a0000000a0000000a0000000a0000000a0000002800000009000000090000000a0000000300000028000000030000000900000003000000030000000300000006000000060000000600000006000000060000000b000000060000000b000000070000000b0000000c0000000c0000000c0000000700000007000000060000000d0000000b0000000b0000000b0000000e0000000c000000080000000c00000008000000080000000c0000000c0000000d0000000d0000000d0000000e0000000e0000000e0000000e0000000e0000000e0000000f0000000e0000000e0000000f0000000f0000000e0000000f0000000f0000000f0000000f000000100000000d000000100000001000000010000000100000001000000010000000120000000d0000001100000010000000110000001000000012000000120000001200000012000000120000001300000013000000130000001300000013000000110000001100000013000000080000001300000008000000110000000800000008000000080000000e000000140000000e000000140000000f000000140000000f000000140000000f000000140000000f0000000f0000000f0000000f00000010000000140000001400000014000000150000001500000015000000160000001600000016000000100000001200000016000000160000001700000017000000170000001700000015000000150000001500000018000000180000001800000018000000180000001800000018000000180000001800000018000000190000001900000019000000170000001700000019000000190000001900000019000000190000001b000000170000001a0000001a0000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001c0000001c0000001c0000001a0000001a0000001c0000001c0000001c0000001200000016000000160000001200000012000000180000001d000000180000001d0000001d0000001d000000180000001d000000180000001d00000018000000190000001f00000019000000190000001d0000001d0000001d0000001e0000001e0000001e00000019000000190000001f000000190000001b0000001f0000001f0000001f0000002000000020000000200000001e0000001e0000001e0000000000000000000000000000000000000000000000000000000200000020000000200000000000000002000000020000000200000020000000200000002000000021000000030000000300000003000000030000001f00000021000000210000002100000021000000220000000300000003000000030000002200000022000000220000002200000022000000290000002300000023000000230000002300000029000000290000002300000023000000290000001b0000001d00000018000000180000001d00000024000000150000001d000000150000001d00000015000000240000001e000000240000001e0000001e0000002400000025000000150000001500000015000000140000001e0000001e0000001e0000001e000000000000002400000024000000240000002500000025000000260000002600000026000000140000001400000026000000260000000e0000000e0000000e0000000e0000002600000026000000260000000b0000000b0000000b00000025000000250000000b0000000b0000000b0000000b0000000b00000006000000250000002700000027000000270000000b00000006000000060000000600000006000000050000000500000001000000010000000100000001000000270000002700000001000000010000000100000000000000270000000100000000000000000000000300000003000000030000000300000022000000280000002200000028000000220000002800000022000000220000002a00000022000000290000002800000028000000280000000a0000000a0000000a00000029000000290000002900000029000000290000002a0000002a000000280000002b000000280000002b0000000a0000000a0000000a000000080000000800000008000000080000000800000013000000130000002b0000002b000000130000001300000013000000130000002b0000002b000000130000002c000000130000001200000012000000120000002a0000002c0000002c0000002c0000002c0000001c0000001200000012000000120000001c0000001c0000001c0000001c0000001c0000001b0000002c000000290000001b000000290000001b0000001b0000002a00000029000000290000001b000000
+  particleType: 040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
+  boneBindPoses: []
+  bonePairs: []
