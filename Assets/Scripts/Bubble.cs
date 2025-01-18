@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DefaultNamespace;
 using Obi;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace DefaultNamespace
 {
@@ -33,11 +34,23 @@ namespace DefaultNamespace
         public BubbleColor color;
         public int size = 1;
         public SoftBodyBluePrintPack BpPack;
+        private float _mergeTime;
+        public bool isPlayer;
+        public bool canMerge => _mergeTime > 0 && _mergeTime < 0.25f;
 
+
+        public void TouchByPlayer()
+        {
+            _mergeTime = 0.5f;
+        }
         private void Start()
         {
             GetComponent<ObiSoftbody>().softbodyBlueprint = BpPack.BpList[size - 1];
         }
 
+        private void FixedUpdate()
+        {
+            _mergeTime -= Time.fixedDeltaTime;
+        }
     }
 }

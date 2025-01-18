@@ -38,7 +38,18 @@ public class SolverController : MonoBehaviour
                 continue;
             }
             touched.Add((actorA, actorB));
-            var canMerge = actorA.GetComponent<Bubble>().color == actorB.GetComponent<Bubble>().color;
+            var bubbleA = actorA.GetComponent<Bubble>();
+            var bubbleB = actorB.GetComponent<Bubble>();
+            
+            if (bubbleA.isPlayer)
+            {
+                bubbleB.TouchByPlayer();
+            }else if (bubbleB.isPlayer)
+            {
+                bubbleA.TouchByPlayer();
+            }
+
+            var canMerge = bubbleA.color == bubbleB.color;//&& bubbleA.canMerge && bubbleB.canMerge;
             if (canMerge) merge.Union(actorA, actorB);
         }
 
