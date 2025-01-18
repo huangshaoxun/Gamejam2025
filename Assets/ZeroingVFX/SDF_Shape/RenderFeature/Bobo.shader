@@ -6,6 +6,8 @@ Shader "Unlit/Bobo"
         _Reflection("Reflection",Float) = 0.7
         _BaseColor("Base Col ",Color) = (1.0,1.0,1.0,1.0)
         [HDR]_Specular("Specular Colr",Color) = (1,1,1,1)
+        _Scale("Scale",Float)= 0
+        _WrapScale("WrapScale",Float)= 0.01
     }
     SubShader
     {
@@ -52,11 +54,16 @@ Shader "Unlit/Bobo"
             float _Reflection;
             half4 _BaseColor;
             float4 _SpecularColor;
+            half _Scale;
+            half _WrapScale;
 
             v2f vert (appdata v)
             {
                 v2f o;
+                float3 position = v.vertex +_Time.y * 0.5;
+                v.vertex.xy +=v.normal.xy*_Scale +SimplexNoise(position)*_WrapScale;
                 o.vertex = TransformObjectToHClip(v.vertex);
+                
                 o.uv = v.uv;
                 o.normalWS = TransformObjectToWorldNormal(v.normal);
                 o.positionWS = TransformObjectToWorld(v.vertex.xyz);
