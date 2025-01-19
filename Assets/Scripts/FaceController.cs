@@ -44,7 +44,7 @@ public class FaceController : MonoBehaviour
                 animator.Play("Default");
                 break;
             case FaceType.Thinking:
-                animator.Play("Thinking");
+                //animator.Play("Thinking");
                 break;
             case FaceType.Wow:
                 animator.Play("Wow");
@@ -53,7 +53,7 @@ public class FaceController : MonoBehaviour
                 animator.Play("BrainStorm");
                 break;
             case FaceType.Question:
-                animator.Play("Question");
+                //animator.Play("Question");
                 break;
             default:
                 break;
