@@ -71,7 +71,15 @@ public class SolverController : MonoBehaviour
                     continue;
                 }
                 change[main as ObiSoftbody] = bpPack.BpList[sumSize - 1];
-                main.GetComponent<Bubble>().size = sumSize;
+                var bubble = main.GetComponent<Bubble>();
+                if (bubble != null)
+                {
+                    bubble.size = sumSize;
+                    bubble.name = "New Big" + sumSize;
+                    // EditorApplication.isPaused = true;
+                    bubble.RefreshOnNewBigOne(BubbleSpawner.Instance.newBigOneStartScale, BubbleSpawner.Instance.newBigOneTransitionTime);
+                }
+
                 //Todo Audio 合并
                 FaceController.Instance.SetFaceType(FaceController.FaceType.Wow);
                 foreach (var one in component.Value)
@@ -83,6 +91,9 @@ public class SolverController : MonoBehaviour
                 }
             }
         }
+
+        // solver.synchronization = change.Count > 0 ? ObiSolver.Synchronization.Synchronous: ObiSolver.Synchronization.Asynchronous;
+
         change.ForEach(x => x.Key.softbodyBlueprint = x.Value);
 
     }

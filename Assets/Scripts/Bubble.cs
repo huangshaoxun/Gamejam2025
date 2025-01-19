@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DefaultNamespace;
+using DG.Tweening;
 using Obi;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -45,7 +46,9 @@ namespace DefaultNamespace
         public int canMerge => isPlayer ? 0 : (_mergeTime > 0 && _mergeTime < 1.98f ? 2 : (_mergeTime > 0 ? 1 : 0));
 
         private Material _material;
-        public const string SHADER_PROPERTY_MAINCOL = "_BaseColor";  // TODO: 等蛋蛋补充
+        public const string SHADER_PROPERTY_MAINCOL = "_BaseColor";
+        public const string SHADER_PROPERTY_SCALE = "_Scale";
+        public const string SHADER_PROPERTY_WRAPSCALE = "_WrapScale";
         
         
         public void TouchByPlayer()
@@ -86,7 +89,33 @@ namespace DefaultNamespace
                 
             }
         }
-        
+
+
+        /// <summary>
+        /// 合并时的表现
+        /// </summary>
+        public void RefreshOnMerge(float startWrapScale, float finalScale, float needTime)
+        {
+            // _material.SetFloat(SHADER_PROPERTY_SCALE, targetScale);
+            // _material.SetFloat(SHADER_PROPERTY_WRAPSCALE, targetsScale);
+            // 扭曲
+            DOTween.To(() => startWrapScale, x => _material.SetFloat(SHADER_PROPERTY_WRAPSCALE, x), 0.01f, needTime);
+            // 慢慢变小
+            var currentScale = _material.GetFloat(SHADER_PROPERTY_SCALE);
+            DOTween.To(() => currentScale, x => _material.SetFloat(SHADER_PROPERTY_SCALE, x), finalScale, needTime);
+        }
+
+        /// <summary>
+        /// 新的大泡泡生成的放大过渡表现
+        /// </summary>
+        public void RefreshOnNewBigOne(float startScale, float needTime)
+        {
+            // var currentScale = _material.GetFloat(SHADER_PROPERTY_SCALE);
+            // DOTween.To(() => currentScale, x => _material.SetFloat(SHADER_PROPERTY_SCALE, x), targetScale, needTime);
+            // DOTween.To(() => 0, x => _material.SetFloat(SHADER_PROPERTY_SCALE, x), targetScale, needTime);
+            DOTween.To(() => startScale, x => _material.SetFloat(SHADER_PROPERTY_SCALE, x), 0, needTime);
+        }
+
         #endregion
     }
 }
