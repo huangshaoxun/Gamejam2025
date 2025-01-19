@@ -1,7 +1,9 @@
 using System.Collections.Generic;
 using Obi;
 using Sirenix.OdinInspector;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -12,6 +14,7 @@ namespace DefaultNamespace
     {
         public List<ObiSoftbodySurfaceBlueprint> BpList;
         
+        #if UNITY_EDITOR
         [Button]
         void GenerateBp()
         {
@@ -28,5 +31,6 @@ namespace DefaultNamespace
             }
             AssetDatabase.Refresh();
         }
+        #endif
     }
 }
