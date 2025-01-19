@@ -16,6 +16,7 @@ namespace DefaultNamespace
         Yellow,
         Green,
         Blue,
+        Cyan
     }
 
     public static class GameDef
@@ -27,7 +28,10 @@ namespace DefaultNamespace
             { BubbleColor.Red, Color.red },
             { BubbleColor.Yellow, Color.yellow },
             { BubbleColor.Green, Color.green },
+            { BubbleColor.Cyan, Color.cyan },
         };
+
+        public static Vector3 GlobalCenter = new Vector3(0, 0, 0);
     }
 
 
@@ -38,7 +42,7 @@ namespace DefaultNamespace
         public SoftBodyBluePrintPack BpPack;
         private float _mergeTime;
         public bool isPlayer;
-        public bool canMerge => _mergeTime > 0 && _mergeTime < 0.25f;
+        public int canMerge => isPlayer ? 0 : (_mergeTime > 0 && _mergeTime < 1.98f ? 2 : (_mergeTime > 0 ? 1 : 0));
 
         private Material _material;
         public const string SHADER_PROPERTY_MAINCOL = "_BaseColor";  // TODO: 等蛋蛋补充
@@ -46,7 +50,7 @@ namespace DefaultNamespace
         
         public void TouchByPlayer()
         {
-            _mergeTime = 0.5f;
+            _mergeTime = 2;
         }
         private void Start()
         {
@@ -60,8 +64,12 @@ namespace DefaultNamespace
         {
             _mergeTime -= Time.fixedDeltaTime;
         }
-        
-        
+
+        public void ResetSize(int s)
+        {
+            size = s;
+            GetComponent<ObiSoftbody>().softbodyBlueprint = BpPack.BpList[size - 1];
+        }
         
         #region 表现层刷新
 

@@ -20,8 +20,8 @@ namespace DefaultNamespace
             {
                 var str = AssetDatabase.GetAssetPath(bp);
                 var data = AssetDatabase.LoadAssetAtPath<ObiSoftbodySurfaceBlueprint>(str);
-                data.scale = new Vector3((1 + (i - 1) * 0.25f), (1 + (i - 1) * 0.25f), 1);
-                data.surfaceResolution = i + 4;
+                data.scale = new Vector3(Mathf.Sqrt(i), Mathf.Sqrt(i), 1);
+                data.surfaceResolution = i / 3 + 5;
                 i++;
                 bp.GenerateImmediate();
                 EditorUtility.SetDirty(data);

@@ -49,7 +49,7 @@ public class SolverController : MonoBehaviour
                 bubbleA.TouchByPlayer();
             }
 
-            var canMerge = bubbleA.color == bubbleB.color;//&& bubbleA.canMerge && bubbleB.canMerge;
+            var canMerge = bubbleA.color == bubbleB.color && (bubbleA.canMerge + bubbleB.canMerge >= 3);
             if (canMerge) merge.Union(actorA, actorB);
         }
 
@@ -68,6 +68,8 @@ public class SolverController : MonoBehaviour
                 component.Key.AddForce((pos - component.Key.transform.position) * 2, ForceMode.VelocityChange);
                 change[main as ObiSoftbody] = bpPack.BpList[sumSize - 1];
                 main.GetComponent<Bubble>().size = sumSize;
+                //Todo Audio 合并
+                FaceController.Instance.SetFaceType(FaceController.FaceType.Wow);
                 foreach (var one in component.Value)
                 {
                     if (one != main)
@@ -78,6 +80,27 @@ public class SolverController : MonoBehaviour
             }
         }
         change.ForEach(x => x.Key.softbodyBlueprint = x.Value);
+
     }
-    
+
+    private void Update()
+    {
+        //Todo Audio 旋转
+        if (Input.GetMouseButtonDown(1))
+        {
+            FaceController.Instance.SetFaceType(FaceController.FaceType.BrainStorm);
+        }
+        else if (Input.GetMouseButton(1))
+        {
+            Vector3 pos = Input.mousePosition; // GetMousePosition();
+            pos.z = 10; // Distance;
+            var worldPos = Camera.main.ScreenToWorldPoint(pos);
+            FaceController.Instance.SetEyePos(-(GameDef.GlobalCenter - worldPos).normalized);
+        } 
+        else if (Input.GetMouseButtonUp(1))
+        {
+            FaceController.Instance.SetFaceType(FaceController.FaceType.Default);
+            FaceController.Instance.SetEyePos(Vector3.zero);
+        }
+    }
 }
