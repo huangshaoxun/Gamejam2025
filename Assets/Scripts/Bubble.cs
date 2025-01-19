@@ -32,6 +32,9 @@ namespace DefaultNamespace
         };
 
         public static Vector3 GlobalCenter = new Vector3(0, 0, 0);
+
+        public static int MaxHp = 30;
+        public static int TotalBall = 65;
     }
 
 

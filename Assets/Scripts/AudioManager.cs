@@ -5,28 +5,28 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager Instance; // µ¥ÀýÊµÀý
+    public static AudioManager Instance; // ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½
 
     [Header("Audio Sources")]
-    public AudioSource bgmSource; // ±³¾°ÒôÀÖÒôÔ´
+    public AudioSource bgmSource; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´
 
     [Header("Audio Clips")]
-    public List<AudioClip> bgmClips; // ±³¾°ÒôÀÖÁÐ±í
-    public List<AudioClip> sfxClips; // ÒôÐ§ÁÐ±í
+    public List<AudioClip> bgmClips; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½
+    public List<AudioClip> sfxClips; // ï¿½ï¿½Ð§ï¿½Ð±ï¿½
 
     private Dictionary<string, AudioClip> bgmDictionary;
     private Dictionary<string, AudioClip> sfxDictionary;
 
-    // ´æ´¢¶¯Ì¬´´½¨µÄÒôÐ§AudioSource
+    // ï¿½æ´¢ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§AudioSource
     private Dictionary<string, AudioSource> sfxSources;
 
     private void Awake()
     {
-        // È·±£µ¥Àý
+        // È·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // ¿ç³¡¾°±£³Ö
+            //DontDestroyOnLoad(gameObject); // ï¿½ç³¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         }
         else
         {
@@ -53,7 +53,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // ²¥·Å±³¾°ÒôÀÖ
+    // ï¿½ï¿½ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public void PlayBGM(string clipName, bool loop = true)
     {
         if (bgmDictionary.TryGetValue(clipName, out AudioClip clip))
@@ -64,25 +64,25 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning($"±³¾°ÒôÀÖ {clipName} Î´ÕÒµ½£¡");
+            Debug.LogWarning($"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ {clipName} Î´ï¿½Òµï¿½ï¿½ï¿½");
         }
     }
 
-    // Í£Ö¹±³¾°ÒôÀÖ
+    // Í£Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public void StopBGM()
     {
         bgmSource.Stop();
     }
 
-    // ²¥·ÅÒôÐ§
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§
     public void PlaySFX(string clipName)
     {
         if (sfxDictionary.TryGetValue(clipName, out AudioClip clip))
         {
-            // ¼ì²éÊÇ·ñÒÑÓÐ¶ÔÓ¦µÄAudioSource
+            // ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Ó¦ï¿½ï¿½AudioSource
             if (!sfxSources.TryGetValue(clipName, out AudioSource source))
             {
-                // Èç¹ûÃ»ÓÐ£¬¶¯Ì¬´´½¨Ò»¸öAudioSource
+                // ï¿½ï¿½ï¿½Ã»ï¿½Ð£ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½AudioSource
                 source = gameObject.AddComponent<AudioSource>();
                 source.clip = clip;
                 sfxSources[clipName] = source;
@@ -92,11 +92,11 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning($"ÒôÐ§ {clipName} Î´ÕÒµ½£¡");
+            Debug.LogWarning($"ï¿½ï¿½Ð§ {clipName} Î´ï¿½Òµï¿½ï¿½ï¿½");
         }
     }
 
-    // Í£Ö¹Ö¸¶¨ÒôÐ§
+    // Í£Ö¹Ö¸ï¿½ï¿½ï¿½ï¿½Ð§
     public void StopSFX(string clipName)
     {
         if (sfxSources.TryGetValue(clipName, out AudioSource source))
@@ -108,17 +108,17 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning($"ÒôÐ§ {clipName} Î´ÕÒµ½»òÎ´²¥·Å£¡");
+            Debug.LogWarning($"ï¿½ï¿½Ð§ {clipName} Î´ï¿½Òµï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½Å£ï¿½");
         }
     }
 
-    // ÉèÖÃ±³¾°ÒôÀÖÒôÁ¿
+    // ï¿½ï¿½ï¿½Ã±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public void SetBGMVolume(float volume)
     {
         bgmSource.volume = Mathf.Clamp01(volume);
     }
 
-    // ÉèÖÃÒôÐ§ÒôÁ¿
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½
     public void SetSFXVolume(string clipName, float volume)
     {
         if (sfxSources.TryGetValue(clipName, out AudioSource source))
@@ -127,7 +127,7 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning($"ÒôÐ§ {clipName} Î´ÕÒµ½£¡");
+            Debug.LogWarning($"ï¿½ï¿½Ð§ {clipName} Î´ï¿½Òµï¿½ï¿½ï¿½");
         }
     }
 }

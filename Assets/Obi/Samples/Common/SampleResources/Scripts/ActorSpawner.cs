@@ -1,21 +1,43 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using DefaultNamespace;
 using UnityEngine;
 using Obi;
 
-public class ActorSpawner : MonoBehaviour {
+public class ActorSpawner : MonoBehaviour
+{
+
+	public static ActorSpawner Instance;
 
 	public ObiActor template;
 
-	private int instances = 0;
+	public int instances = 0;
 
 	public float holdValue;
 
+	private void Awake()
+	{
+		if (Instance == null)
+		{
+			Instance = this;
+			//DontDestroyOnLoad(gameObject);
+		}
+		else if (Instance != this)
+		{
+			Destroy(gameObject);
+		}
+	}
 
-    // Update is called once per frame
+	private void Start()
+	{
+		CanvasController.Instance.SetHp(GameDef.MaxHp, GameDef.MaxHp);
+	}
+
+	// Update is called once per frame
     void Update () {				
-
+	    if (instances >= GameDef.MaxHp) return;
+	    
 		if (Input.GetMouseButton(0))
 		{
 			holdValue += Time.deltaTime * 2;
@@ -54,6 +76,8 @@ public class ActorSpawner : MonoBehaviour {
                 AudioManager.Instance.StopSFX("192497__murraysortz__bubbles-long");
                 AudioManager.Instance.PlaySFX("104941__glaneur-de-sons__bubble-2");
                 FaceController.Instance.SetFaceType(FaceController.FaceType.Question);
+                instances++;
+                CanvasController.Instance.SetHp(GameDef.MaxHp - instances, GameDef.MaxHp);
 			}
             
 			go.SetActive(true);

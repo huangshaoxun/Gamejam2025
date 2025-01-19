@@ -30,6 +30,11 @@ public class AddRandomVelocity : MonoBehaviour {
 			if (bubble.transform.position.y > 5f)
 			{
 				Destroy(gameObject);
+				var high = PlayerPrefs.GetInt("HighScore", 0);
+				high = Mathf.Max(high,SolverController.Instance.score);
+				PlayerPrefs.SetInt("HighScore", high);
+				if (ActorSpawner.Instance.instances >= GameDef.MaxHp)
+					CanvasController.Instance.EndGame(SolverController.Instance.score, high);
 			}
 		}
 		else

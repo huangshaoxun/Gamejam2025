@@ -12,8 +12,25 @@ using UnityEngine;
 
 public class SolverController : MonoBehaviour
 {
+    public static SolverController Instance;
+
     private ObiSolver solver;
     public SoftBodyBluePrintPack bpPack;
+    public int score;
+    
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            //DontDestroyOnLoad(gameObject);
+        }
+        else if (Instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     void Start()
     {
         solver = GetComponent<ObiSolver>();
@@ -74,6 +91,8 @@ public class SolverController : MonoBehaviour
                 main.GetComponent<Bubble>().size = sumSize;
                 //Todo Audio 合并
                 FaceController.Instance.SetFaceType(FaceController.FaceType.Wow);
+                score += sumSize * component.Value.Count;
+                CanvasController.Instance.SetScore(score);
                 foreach (var one in component.Value)
                 {
                     if (one != main)
