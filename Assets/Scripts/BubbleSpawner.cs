@@ -24,6 +24,9 @@ public class BubbleSpawner : MonoBehaviour
     [LabelText("生成点范围 - y")] public Vector2 yAixsRange;
     [LabelText("生成大小范围[min, max]")] public Vector2 sizeRange;
     
+    [LabelText("创建新object 的Shader - Scale 起始值")] public float newBigOneStartScale = -0.25f;
+    [LabelText("创建新object 的过渡时长")] public float newBigOneTransitionTime = 0.5f;
+    
     
     private List<PlaceData> placedPositions = new List<PlaceData>(); // 已经放置的物体位置
     public float minDistance = 2f;    // 物体之间的最小距离 【粗暴算法，主要为了避免生成位置重合】
@@ -54,7 +57,7 @@ public class BubbleSpawner : MonoBehaviour
         PlaceData placeData = RandomData(out isPositionValid);
         if (!isPositionValid)
         {
-            Debug.LogError("生成位置不合法");
+            // Debug.LogError("生成位置不合法");
             return;
         }
         

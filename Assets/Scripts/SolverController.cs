@@ -31,6 +31,11 @@ public class SolverController : MonoBehaviour
         }
     }
 
+    private Vector3 lastMousePosition; // 上一帧的鼠标位置
+    private float currentVolume = 0f; // 当前音量
+    public float maxVolume = 1f; // 最大音量
+    public float speedToVolumeFactor = 0.01f; // 鼠标速度到音量的转换因子
+
     void Start()
     {
         solver = GetComponent<ObiSolver>();
@@ -88,8 +93,17 @@ public class SolverController : MonoBehaviour
                     continue;
                 }
                 change[main as ObiSoftbody] = bpPack.BpList[sumSize - 1];
-                main.GetComponent<Bubble>().size = sumSize;
+                var bubble = main.GetComponent<Bubble>();
+                if (bubble != null)
+                {
+                    bubble.size = sumSize;
+                    bubble.name = "New Big" + sumSize;
+                    // EditorApplication.isPaused = true;
+                    bubble.RefreshOnNewBigOne(BubbleSpawner.Instance.newBigOneStartScale, BubbleSpawner.Instance.newBigOneTransitionTime);
+                }
+
                 //Todo Audio 合并
+                AudioManager.Instance.PlaySFX("104942__glaneur-de-sons__bubble-3");
                 FaceController.Instance.SetFaceType(FaceController.FaceType.Wow);
                 score += sumSize * component.Value.Count;
                 CanvasController.Instance.SetScore(score);
@@ -102,6 +116,9 @@ public class SolverController : MonoBehaviour
                 }
             }
         }
+
+        // solver.synchronization = change.Count > 0 ? ObiSolver.Synchronization.Synchronous: ObiSolver.Synchronization.Asynchronous;
+
         change.ForEach(x => x.Key.softbodyBlueprint = x.Value);
 
     }
@@ -112,6 +129,9 @@ public class SolverController : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             FaceController.Instance.SetFaceType(FaceController.FaceType.BrainStorm);
+
+            AudioManager.Instance.PlaySFX("Audio_Rotation");
+            AudioManager.Instance.SetSFXVolume("Audio_Rotation", 0f);
         }
         else if (Input.GetMouseButton(1))
         {
@@ -119,11 +139,25 @@ public class SolverController : MonoBehaviour
             pos.z = 10; // Distance;
             var worldPos = Camera.main.ScreenToWorldPoint(pos);
             FaceController.Instance.SetEyePos(-(GameDef.GlobalCenter - worldPos).normalized);
+
+
+            Vector3 currentMousePosition = Input.mousePosition;
+            // 计算鼠标移动速度
+            Vector3 deltaPosition = currentMousePosition - lastMousePosition; // 鼠标位置差
+            float speed = deltaPosition.magnitude / Time.deltaTime; // 速度 = 距离 / 时间
+
+            // 根据速度计算音量
+            currentVolume = Mathf.Clamp(speed * speedToVolumeFactor, 0, maxVolume); 
+
+            // 设置音量
+            AudioManager.Instance.SetSFXVolume("Audio_Rotation", currentVolume);
         } 
         else if (Input.GetMouseButtonUp(1))
         {
             FaceController.Instance.SetFaceType(FaceController.FaceType.Default);
             FaceController.Instance.SetEyePos(Vector3.zero);
+
+            AudioManager.Instance.StopSFX("Audio_Rotation");
         }
     }
 }
