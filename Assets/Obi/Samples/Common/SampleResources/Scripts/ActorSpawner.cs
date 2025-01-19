@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using DefaultNamespace;
 using UnityEngine;
@@ -42,7 +41,7 @@ public class ActorSpawner : MonoBehaviour
 		{
 			holdValue += Time.deltaTime * 2;
             //Todo Audio 蓄力
-            AudioManager.Instance.PlaySFX("192497__murraysortz__bubbles-long");
+            AudioManager.Instance.PlaySFX("192497__murraysortz__bubbles-long", false);
 
             if (holdValue - Time.deltaTime * 2 < 0.15f && holdValue > 0.15f)
 			{
@@ -74,7 +73,7 @@ public class ActorSpawner : MonoBehaviour
 				bubble.GetComponent<AddRandomVelocity>().intensity = 50 - size * 10;
                 //Todo Audio 发射
                 AudioManager.Instance.StopSFX("192497__murraysortz__bubbles-long");
-                AudioManager.Instance.PlaySFX("104941__glaneur-de-sons__bubble-2");
+                AudioManager.Instance.PlaySFX("104941__glaneur-de-sons__bubble-2", false);
                 FaceController.Instance.SetFaceType(FaceController.FaceType.Question);
                 instances++;
                 CanvasController.Instance.SetHp(GameDef.MaxHp - instances, GameDef.MaxHp);
