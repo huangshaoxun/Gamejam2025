@@ -863,10 +863,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4102815064910704889, guid: b6431d6faeb58dc42ae82bf200290d99,
+    - target: {fileID: 1266356479429108972, guid: b6431d6faeb58dc42ae82bf200290d99,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970926432426159422, guid: b6431d6faeb58dc42ae82bf200290d99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4102815064910704889, guid: b6431d6faeb58dc42ae82bf200290d99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822318963322454299, guid: b6431d6faeb58dc42ae82bf200290d99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5549498711028497260, guid: b6431d6faeb58dc42ae82bf200290d99,
         type: 3}
@@ -922,6 +937,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.a
       value: 0.2901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692381491598991628, guid: b6431d6faeb58dc42ae82bf200290d99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -989,6 +1009,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301393626295104842, guid: c13fafb58cb888d4c87787714a588595,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.68
       objectReference: {fileID: 0}
     - target: {fileID: 6697968023421963398, guid: c13fafb58cb888d4c87787714a588595,
         type: 3}
@@ -2124,7 +2149,7 @@ PrefabInstance:
     - target: {fileID: 6207204101815203616, guid: 50da1f99a3d2646478f91888e6b86d78,
         type: 3}
       propertyPath: shapeMatchingConstraintParameters.iterations
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6207204101815203616, guid: 50da1f99a3d2646478f91888e6b86d78,
         type: 3}
