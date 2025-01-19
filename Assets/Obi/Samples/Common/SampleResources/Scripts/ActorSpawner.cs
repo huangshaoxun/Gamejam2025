@@ -11,16 +11,18 @@ public class ActorSpawner : MonoBehaviour {
 	private int instances = 0;
 
 	public float holdValue;
-	
-	// Update is called once per frame
-	void Update () {
-		
-		
+
+
+    // Update is called once per frame
+    void Update () {				
+
 		if (Input.GetMouseButton(0))
 		{
 			holdValue += Time.deltaTime * 2;
-			//Todo Audio 蓄力
-			if (holdValue - Time.deltaTime * 2 < 0.15f && holdValue > 0.15f)
+            //Todo Audio 蓄力
+            AudioManager.Instance.PlaySFX("192497__murraysortz__bubbles-long");
+
+            if (holdValue - Time.deltaTime * 2 < 0.15f && holdValue > 0.15f)
 			{
 				FaceController.Instance.SetFaceType(FaceController.FaceType.Thinking);
 			}
@@ -48,8 +50,10 @@ public class ActorSpawner : MonoBehaviour {
 				bubble.color = BubbleColor.None;
 				bubble.ResetSize(size);
 				bubble.GetComponent<AddRandomVelocity>().intensity = 50 - size * 10;
-				//Todo Audio 发射
-				FaceController.Instance.SetFaceType(FaceController.FaceType.Question);
+                //Todo Audio 发射
+                AudioManager.Instance.StopSFX("192497__murraysortz__bubbles-long");
+                AudioManager.Instance.PlaySFX("104941__glaneur-de-sons__bubble-2");
+                FaceController.Instance.SetFaceType(FaceController.FaceType.Question);
 			}
             
 			go.SetActive(true);
