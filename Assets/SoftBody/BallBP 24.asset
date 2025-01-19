@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1979224453110730687
+--- !u!114 &-7709150807598744031
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8507,7 +8507,7 @@ MonoBehaviour:
   inputMesh: {fileID: 4300000, guid: 2aa4d1401124f4f56bec911ef61b4766, type: 3}
   scale: {x: 4.8989797, y: 4.8989797, z: 1}
   rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_Skinmap: {fileID: -1979224453110730687}
+  m_Skinmap: {fileID: -7709150807598744031}
   surfaceSamplingMode: 1
   surfaceResolution: 13
   volumeSamplingMode: 0

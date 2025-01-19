@@ -27,6 +27,10 @@ public class AddRandomVelocity : MonoBehaviour {
 		if (bubble.isPlayer)
 		{
 			GetComponent<ObiActor>().AddForce(Vector3.up * intensity,ForceMode.Acceleration);
+			if (bubble.transform.position.y > 5f)
+			{
+				Destroy(gameObject);
+			}
 		}
 		else
 		{

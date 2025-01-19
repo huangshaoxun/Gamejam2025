@@ -2041,7 +2041,7 @@ PrefabInstance:
     - target: {fileID: 6207204101815203616, guid: 50da1f99a3d2646478f91888e6b86d78,
         type: 3}
       propertyPath: shapeMatchingConstraintParameters.iterations
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6207204101815203616, guid: 50da1f99a3d2646478f91888e6b86d78,
         type: 3}
