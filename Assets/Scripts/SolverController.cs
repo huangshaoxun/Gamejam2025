@@ -66,6 +66,10 @@ public class SolverController : MonoBehaviour
                 component.Value.ForEach(x => sumSize += x.GetComponent<Bubble>().size);
                 pos /= sumSize;
                 component.Key.AddForce((pos - component.Key.transform.position) * 2, ForceMode.VelocityChange);
+                if (sumSize - 1 > bpPack.BpList.Count - 1)
+                {
+                    continue;
+                }
                 change[main as ObiSoftbody] = bpPack.BpList[sumSize - 1];
                 main.GetComponent<Bubble>().size = sumSize;
                 //Todo Audio 合并
