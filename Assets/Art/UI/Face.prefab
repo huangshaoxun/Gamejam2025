@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3120426190119715446}
   - component: {fileID: 5016610438797244197}
+  - component: {fileID: 8663265361144999120}
   m_Layer: 0
   m_Name: Face
   m_TagString: Untagged
@@ -60,6 +61,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8663265361144999120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892288451232649238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2fec295515e3764cb6b2c8931f00294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 5016610438797244197}
+  LeftEye: {fileID: 0}
+  RightEye: {fileID: 0}
+  EyeTarget: {x: 0, y: 0, z: 0}
 --- !u!1 &2214602516555354476
 GameObject:
   m_ObjectHideFlags: 0

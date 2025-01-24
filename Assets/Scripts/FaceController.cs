@@ -62,11 +62,11 @@ public class FaceController : MonoBehaviour
     
     public void SetEyePos(Vector3 vec)
     {
-        EyeTarget = vec;
+        //EyeTarget = vec;
     }
 
     public void Update()
     {
-        RightEye.localPosition = LeftEye.localPosition = Vector3.SmoothDamp(LeftEye.localPosition, EyeTarget, ref EyeVelocity, 0.2f);
+        //RightEye.localPosition = LeftEye.localPosition = Vector3.SmoothDamp(LeftEye.localPosition, EyeTarget, ref EyeVelocity, 0.2f);
     }
 }
