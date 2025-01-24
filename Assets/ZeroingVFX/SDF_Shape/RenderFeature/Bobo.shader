@@ -8,6 +8,7 @@ Shader "Unlit/Bobo"
         [HDR]_Specular("Specular Colr",Color) = (1,1,1,1)
         _Scale("Scale",Float)= 0
         _WrapScale("WrapScale",Float)= 0.01
+        _Size("Size",Float)= 1
     }
     SubShader
     {
@@ -56,6 +57,7 @@ Shader "Unlit/Bobo"
             float4 _SpecularColor;
             half _Scale;
             half _WrapScale;
+            float _Size;
 
             v2f vert (appdata v)
             {
@@ -72,19 +74,20 @@ Shader "Unlit/Bobo"
 
             half4 frag (v2f i) : SV_Target
             {
+                float3 newNormal = i.normalWS*pow(length(i.normalWS)*(1-(clamp(_Size,1,4)-1)/100),_Size);
                 float3 viewDir = normalize(_WorldSpaceCameraPos - i.positionWS);
                 float4 shadowCoord = TransformWorldToShadowCoord(i.positionWS);
                 Light light = GetMainLight(shadowCoord, i.positionWS, 1);
-                half3 diffuseColor =  LightingLambert2(light,  i.normalWS);
-                half3 specular =  LightingSpecular2(light,  i.normalWS,viewDir,_SpecularColor,_SpecularColor.a);
+                half3 diffuseColor =  LightingLambert2(light,  newNormal);
+                half3 specular =  LightingSpecular2(light,  newNormal,viewDir,_SpecularColor,_SpecularColor.a);
                 //env col
-                float3 irradiance = SampleSH(i.normalWS);
-                float3 specularEnvCol =GlossyEnvironmentReflection(reflect(-viewDir,i.normalWS), (1-_Reflection), 1.0);
+                float3 irradiance = SampleSH(newNormal);
+                float3 specularEnvCol =GlossyEnvironmentReflection(reflect(-viewDir,newNormal), (1-_Reflection), 1.0);
 
                 half3 finalCol = (diffuseColor + ( lerp(irradiance,specularEnvCol,_Reflection) )*_Reflection)  * _BaseColor + specular;
                 half2 vNormal = mul(unity_WorldToCamera,i.normalWS).xy;
                 //half4 col = tex2D(_MainTex, i.uv);
-                half4 mc = tex2D(_MatcapTex,vNormal*0.5+0.5);
+                half4 mc = tex2D(_MatcapTex, vNormal*pow(length(vNormal)*(1-(clamp(_Size,1,4)-1)/100),pow(_Size,1.3))*0.5+0.5);
                 half4 Col =half4(finalCol,1)+mc;
                 Col.a = _BaseColor.a*mc.a;
                 return Col;

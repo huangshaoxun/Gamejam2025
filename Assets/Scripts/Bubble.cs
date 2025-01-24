@@ -29,7 +29,7 @@ namespace DefaultNamespace
             { BubbleColor.Red, Color.red },
             { BubbleColor.Yellow, Color.yellow },
             { BubbleColor.Green, Color.green },
-            { BubbleColor.Cyan, Color.cyan },
+            { BubbleColor.Cyan, new Color(0,0.7f,1f) },
         };
 
         public static Vector3 GlobalCenter = new Vector3(0, 0, 0);
@@ -52,6 +52,7 @@ namespace DefaultNamespace
         public const string SHADER_PROPERTY_MAINCOL = "_BaseColor";
         public const string SHADER_PROPERTY_SCALE = "_Scale";
         public const string SHADER_PROPERTY_WRAPSCALE = "_WrapScale";
+        public const string SHADER_PROPERTY_SIZE = "_Size";
         
         
         public void TouchByPlayer()
@@ -75,6 +76,7 @@ namespace DefaultNamespace
         {
             size = s;
             GetComponent<ObiSoftbody>().softbodyBlueprint = BpPack.BpList[size - 1];
+            RefreshMaterial();
         }
         
         #region 表现层刷新
@@ -88,6 +90,7 @@ namespace DefaultNamespace
             {
                 var matColor = GameDef.Map[color];
                 _material.SetColor(SHADER_PROPERTY_MAINCOL, matColor);
+                _material.SetFloat(SHADER_PROPERTY_SIZE,Mathf.Sqrt(size));
                 // TODO:待蛋蛋补充.
                 
             }

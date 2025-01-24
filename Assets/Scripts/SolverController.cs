@@ -101,6 +101,7 @@ public class SolverController : MonoBehaviour
                 {
                     bubble.size = sumSize;
                     bubble.name = "New Big" + sumSize;
+                    bubble.RefreshMaterial();
                     // EditorApplication.isPaused = true;
                     bubble.RefreshOnNewBigOne(BubbleSpawner.Instance.newBigOneStartScale, BubbleSpawner.Instance.newBigOneTransitionTime);
                 }
