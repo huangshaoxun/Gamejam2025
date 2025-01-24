@@ -15,7 +15,7 @@ namespace Gumou {
                     if (objs.Length == 1) {
                         _S = (T)objs[0];
                     } else {
-                        Debug.LogWarning("singleton == null");
+                        //Debug.LogWarning("singleton == null");
                     }
                 }
                 return _S;
