@@ -118,6 +118,9 @@ Material:
     - _PositionRange: -0.64
     - _PositionRangeX: 0
     - _PositionRangeY: 0
+    - _PositionScale: 0.8
+    - _PositionScaleX: 1
+    - _PositionScaleY: 0.6
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SampleGI: 0

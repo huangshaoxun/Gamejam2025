@@ -6,6 +6,8 @@ Shader "Unlit/Eye"
         _BaseColor("Base Col",Color) = (1.0,1.0,1.0,1.0)
         _PositionRangeY("PositionRangeY",Range(-1,1)) = 0
         _PositionRangeX("PositionRangeX",Range(-1,1)) = 0
+        _PositionScaleX("PositionScaleX",Range(0,1)) = 1
+        _PositionScaleY("PositionScaleY",Range(0,1)) = 1
         _StencilRef("StencilRef", Range(0, 255)) = 1
         [Enum(UnityEngine.Rendering.CompareFunction)]_StencilComp("StencilComp", Float) = 8
     }
@@ -45,11 +47,13 @@ Shader "Unlit/Eye"
             float4 _MainTex_ST;
             float _PositionRangeY;
             float _PositionRangeX;
+            float _PositionScaleX;
+            float _PositionScaleY;
 
             v2f vert (appdata v)
             {
                 v2f o;
-                v.vertex.xy += float2(_PositionRangeX,_PositionRangeY);
+                v.vertex.xy += float2(_PositionRangeX*_PositionScaleX,_PositionRangeY*_PositionScaleY);
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 
